@@ -1,0 +1,2819 @@
+<LadderDiagram>
+  <Object type="PLCGraphics.CASSBaseDesign.CassView, CASSBaseDesign, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="MTOY">
+    <Property name="Location">0, 0</Property>
+    <Property name="Size">915, 5376</Property>
+    <Property name="ControlAutoSize">48</Property>
+    <Property name="EndX">305</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no71">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,336</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4744</Property>
+    <Property name="Comment">黄灯强制输出</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M6503</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no72">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,336</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4745</Property>
+    <Property name="Comment">强制输出</Property>
+    <Property name="Rightup">True</Property>
+    <Property name="Address">M2242</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row6">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,480</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st4">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,480</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4755</Property>
+    <Property name="StNum">Y133</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.Note, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="note2">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">307,480</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Content">   C-HK</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no66">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,480</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4754</Property>
+    <Property name="Comment">允许加热</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M505</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row8">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,576</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st57">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,576</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4759</Property>
+    <Property name="StNum">Y1</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.Note, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="note10">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">307,576</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Content">   C-4</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no64">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,576</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4758</Property>
+    <Property name="Comment">射出</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M507</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.Note, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="note3">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">307,528</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Content">   C-L1</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st6">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,528</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4757</Property>
+    <Property name="StNum">Y127</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no65">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,528</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4756</Property>
+    <Property name="Comment">润滑马达</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M506</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row7">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,528</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no74">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,432</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4751</Property>
+    <Property name="Comment">强制输出</Property>
+    <Property name="Rightup">True</Property>
+    <Property name="Address">M2242</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no73">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,432</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4750</Property>
+    <Property name="Comment">绿灯强制输出</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M6504</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row5">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">160,384</Property>
+    <Property name="Size">96,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st31">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,384</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4753</Property>
+    <Property name="StNum">Y124</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.Note, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="note25">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">307,384</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Content">C-HG</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no67">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,384</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4748</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M504</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NC, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="nc4">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,384</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">True</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4749</Property>
+    <Property name="Comment">强制输出</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M2242</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no9">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,672</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4760</Property>
+    <Property name="Comment">射退</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M510</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st56">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,672</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4761</Property>
+    <Property name="StNum">Y2</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.Note, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="note11">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">307,672</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Content">   C-5</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row9">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,672</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row10">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,720</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st18">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,720</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4763</Property>
+    <Property name="StNum">Y3</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.Note, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="note12">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">307,720</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Content">   C-6</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no10">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,720</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4762</Property>
+    <Property name="Comment">储料</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M511</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st14">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,864</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4769</Property>
+    <Property name="StNum">Y141</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.Note, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="note8">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">307,864</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Content">   C-9</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no13">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,864</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4768</Property>
+    <Property name="Comment">顶进</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M514</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row13">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,864</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row14">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,912</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.Note, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="note9">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">307,912</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Content">   C-10</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st15">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,912</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4771</Property>
+    <Property name="StNum">Y142</Property>
+    <Property name="Comment">中子2进</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no63">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,912</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4770</Property>
+    <Property name="Comment">顶退</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M515</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.Note, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="note15">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">307,960</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Content">   C-11</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st21">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,960</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4773</Property>
+    <Property name="StNum">Y143</Property>
+    <Property name="Comment">中子2退</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no61">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,960</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4772</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M710</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row15">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,960</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row12">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,816</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no12">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,816</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4766</Property>
+    <Property name="Comment">座退</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M513</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st20">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,816</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4767</Property>
+    <Property name="StNum">Y5</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.Note, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="note14">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">307,816</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Content">   C-8</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row11">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,768</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no11">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,768</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4764</Property>
+    <Property name="Comment">座进</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M512</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.Note, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="note13">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">307,768</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Content">   C-7</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st19">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,768</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4765</Property>
+    <Property name="StNum">Y4</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st22">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,1008</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4775</Property>
+    <Property name="StNum">Y144</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.Note, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="note16">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">307,1008</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Content">   C-12</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no62">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,1008</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4774</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M720</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row16">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,1008</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.Note, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="note4">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">307,1104</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Content">   C-13</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st10">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,1104</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4777</Property>
+    <Property name="StNum">Y10</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no17">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,1104</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4776</Property>
+    <Property name="Comment">调模进</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M520</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row17">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,1104</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no58">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,1344</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4786</Property>
+    <Property name="Comment">母模吹气</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M525</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.Note, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="note20">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">307,1344</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Content">   C-20</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st26">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,1344</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4787</Property>
+    <Property name="StNum">Y122</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row22">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,1344</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row21">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,1296</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no60">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,1296</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4784</Property>
+    <Property name="Comment">公模吹气</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M524</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st25">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,1296</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4785</Property>
+    <Property name="StNum">Y121</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.Note, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="note19">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">307,1296</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Content">   C-19</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row20">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,1248</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.Note, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="note18">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">307,1248</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Content">   C-16</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st24">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,1248</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4783</Property>
+    <Property name="StNum">Y146</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no59">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,1248</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4782</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M721</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row19">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,1200</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st23">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,1200</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4781</Property>
+    <Property name="StNum">Y145</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.Note, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="note17">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">307,1200</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Content">   C-15</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no19">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,1200</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4780</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M711</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.Note, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="note5">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">307,1152</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Content">   C-14</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st11">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,1152</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4779</Property>
+    <Property name="StNum">Y11</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no18">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,1152</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4778</Property>
+    <Property name="Comment">调模退</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M521</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row18">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,1152</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.Note, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="note6">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">307,1392</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Content">   C-21</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st12">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,1392</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4789</Property>
+    <Property name="StNum">Y12</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no57">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,1392</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4788</Property>
+    <Property name="Comment">开模</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M526</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row23">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,1392</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row25">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,1584</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no28">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,1584</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4792</Property>
+    <Property name="Comment">合模</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M534</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.Note, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="note7">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">307,1584</Property>
+    <Property name="Size">96,48</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Content">   C-3102(C31)</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st13">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,1584</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4793</Property>
+    <Property name="StNum">Y15</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st27">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,1536</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4791</Property>
+    <Property name="StNum">Y123</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.Note, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="note21">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">307,1536</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Content">   C-RE</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no56">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,1536</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4790</Property>
+    <Property name="Comment">伺服复位</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M533</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row24">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,1536</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.Note, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="note28">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">307,1680</Property>
+    <Property name="Size">96,48</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Content">星型启动</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.Note, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="note29">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">307,1728</Property>
+    <Property name="Size">96,48</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Content">三角形启动</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st67">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,1776</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4795</Property>
+    <Property name="StNum">Y0</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no76">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,1776</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4794</Property>
+    <Property name="Comment">辅助注射</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M540</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row66">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,1776</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row68">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,1872</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no78">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,1872</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4798</Property>
+    <Property name="Comment">系统泵加载</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M542</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st69">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,1872</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4799</Property>
+    <Property name="StNum">Y7</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st66">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,1824</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4797</Property>
+    <Property name="StNum">Y6</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no75">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,1824</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4796</Property>
+    <Property name="Comment">储料背压阀</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M541</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row65">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,1824</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row72">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,2064</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no82">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,2064</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4804</Property>
+    <Property name="Comment">润滑马达2</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M546</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st73">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,2064</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4805</Property>
+    <Property name="StNum">Y130</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row70">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,1968</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no80">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,1968</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4802</Property>
+    <Property name="Comment">关模低压</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M544</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st71">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,1968</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4803</Property>
+    <Property name="StNum">Y14</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row67">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,1920</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no77">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,1920</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4800</Property>
+    <Property name="Comment">开模快速</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M543</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st68">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,1920</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4801</Property>
+    <Property name="StNum">Y13</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row71">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,2112</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no81">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,2112</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4806</Property>
+    <Property name="Comment">喷嘴开</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M547</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st72">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,2112</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4807</Property>
+    <Property name="StNum">Y134</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st74">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,2208</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4811</Property>
+    <Property name="StNum">Y140</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no83">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,2208</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4810</Property>
+    <Property name="Comment">静压支撑充液</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M551</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row73">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,2208</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st75">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,2160</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4809</Property>
+    <Property name="StNum">Y135</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no84">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,2160</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4808</Property>
+    <Property name="Comment">喷嘴关</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M550</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row74">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,2160</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st82">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,2304</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4813</Property>
+    <Property name="StNum">Y120</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no90">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,2304</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4812</Property>
+    <Property name="Comment">风扇5</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M556</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row2092">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,2304</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no91">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,2352</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4814</Property>
+    <Property name="Comment">风扇6</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M557</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st83">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,2352</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4815</Property>
+    <Property name="StNum">Y132</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row2093">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,2352</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no92">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,2400</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4816</Property>
+    <Property name="Comment">风扇7</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M560</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st84">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,2400</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4817</Property>
+    <Property name="StNum">Y136</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row2094">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,2400</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st85">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,2448</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4819</Property>
+    <Property name="StNum">Y137</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no93">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,2448</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4818</Property>
+    <Property name="Comment">风扇8</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M561</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row2095">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,2448</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no55">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,2592</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">True</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4820</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M600</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st50">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,2592</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4822</Property>
+    <Property name="StNum">Y40</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row27">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,2592</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row60">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,2640</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Col, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="col1">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,2640</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">True</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st58">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,2640</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4824</Property>
+    <Property name="StNum">Y160</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row28">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,2688</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st51">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,2688</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4827</Property>
+    <Property name="StNum">Y41</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no42">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,2688</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">True</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4825</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M601</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row80">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,2736</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st81">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,2736</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4829</Property>
+    <Property name="StNum">Y161</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Col, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="col9">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,2736</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">True</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row29">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,2784</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st52">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,2784</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4831</Property>
+    <Property name="StNum">Y40</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no41">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,2784</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4830</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M602</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row30">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,2880</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st53">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,2880</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4834</Property>
+    <Property name="StNum">Y40</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no40">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,2880</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">True</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4832</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M603</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row63">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,2928</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st60">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,2928</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4836</Property>
+    <Property name="StNum">Y162</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Col, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="col4">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,2928</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">True</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row31">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,2976</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st54">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,2976</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4839</Property>
+    <Property name="StNum">Y44</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no5">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,2976</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">True</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4837</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M604</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Col, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="col5">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,3024</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">True</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row64">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,3024</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st62">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,3024</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4841</Property>
+    <Property name="StNum">Y163</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st39">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,3168</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4847</Property>
+    <Property name="StNum">Y40</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no46">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,3168</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4846</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M607</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row34">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,3168</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no7">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,3120</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4844</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M606</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st40">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,3120</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4845</Property>
+    <Property name="StNum">Y46</Property>
+    <Property name="Comment">快速合模</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row33">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,3120</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row32">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,3072</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st41">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,3072</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4843</Property>
+    <Property name="StNum">Y45</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no6">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,3072</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4842</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M605</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no54">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,3264</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4848</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M610</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st38">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,3264</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4849</Property>
+    <Property name="StNum">Y41</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row35">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,3264</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row36">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,3312</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no53">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,3312</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4850</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M611</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st36">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,3312</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4851</Property>
+    <Property name="StNum">Y41</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row37">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,3360</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st37">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,3360</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4853</Property>
+    <Property name="StNum">Y41</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no52">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,3360</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4852</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M612</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.Note, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="note27">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">307,3408</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Content">新增控制面板指示灯</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row38">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,3504</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st35">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,3504</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4855</Property>
+    <Property name="StNum">Y41</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no51">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,3504</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4854</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M613</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row39">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,3552</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st34">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,3552</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4857</Property>
+    <Property name="StNum">Y41</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no50">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,3552</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4856</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M614</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st33">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,3600</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4859</Property>
+    <Property name="StNum">Y41</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no14">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,3600</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4858</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M615</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row40">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,3600</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st55">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,3648</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4861</Property>
+    <Property name="StNum">Y41</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no15">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,3648</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4860</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M616</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row54">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,3648</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row41">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,3696</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no16">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,3696</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4862</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M617</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st43">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,3696</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4863</Property>
+    <Property name="StNum">Y47</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no45">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,3840</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4864</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M620</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st42">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,3840</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4865</Property>
+    <Property name="StNum">Y42</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row42">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,3840</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no43">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,3936</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4868</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M622</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st45">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,3936</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4869</Property>
+    <Property name="StNum">Y42</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row44">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,3936</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row43">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,3888</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st44">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,3888</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4867</Property>
+    <Property name="StNum">Y41</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no44">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,3888</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4866</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M621</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row46">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,4032</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st48">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,4032</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4873</Property>
+    <Property name="StNum">Y42</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no21">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,4032</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4872</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M624</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no20">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,3984</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4870</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M623</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st46">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,3984</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4871</Property>
+    <Property name="StNum">Y42</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row45">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,3984</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no22">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,4080</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4874</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M625</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st47">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,4080</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4875</Property>
+    <Property name="StNum">Y42</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row47">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,4080</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no23">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,4128</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4876</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M626</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st49">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,4128</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4877</Property>
+    <Property name="StNum">Y42</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row48">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,4128</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no8">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,4176</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4878</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M627</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st17">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,4176</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4879</Property>
+    <Property name="StNum">Y47</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row49">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,4176</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row50">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,4272</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st16">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,4272</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4881</Property>
+    <Property name="StNum">Y43</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no49">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,4272</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4880</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M630</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row51">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,4320</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st7">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,4320</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4884</Property>
+    <Property name="StNum">Y43</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no48">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,4320</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">True</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4882</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M631</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st63">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,4368</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4886</Property>
+    <Property name="StNum">Y164</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row57">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,4368</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Col, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="col8">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,4368</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">True</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st9">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,4416</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4889</Property>
+    <Property name="StNum">Y42</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no47">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,4416</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">True</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4887</Property>
+    <Property name="Comment">指示灯_马达启动</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M632</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row52">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,4416</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Col, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="col7">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,4464</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">True</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st65">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,4464</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4891</Property>
+    <Property name="StNum">Y165</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row58">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,4464</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st8">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,4512</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4894</Property>
+    <Property name="StNum">Y43</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no27">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,4512</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">True</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4892</Property>
+    <Property name="Comment">指示灯_电热开关</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M633</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row53">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,4512</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Col, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="col6">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,4560</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">True</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st64">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,4560</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4896</Property>
+    <Property name="StNum">Y166</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row59">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,4560</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row77">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,5280</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st78">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,5280</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="StNum">Y164</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no87">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,5280</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M631</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no88">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,5232</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M604</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st79">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,5232</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="StNum">Y163</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row78">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,5232</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row76">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,5184</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st77">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,5184</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="StNum">Y202</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no86">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,5184</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M603</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st76">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,5136</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="StNum">Y161</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no85">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,5136</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M601</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row75">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,5136</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row79">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,5088</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st80">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,5088</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="StNum">Y160</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no89">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,5088</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M600</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.END, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="end1">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,5040</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="ILRow">4899</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="Comment">
+    </Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row56">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,5040</Property>
+    <Property name="Size">192,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.FEND, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="fend1">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,4992</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="ILRow">4897</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="Comment">
+    </Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row55">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,4992</Property>
+    <Property name="Size">192,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no4">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,288</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4742</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M503</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.Note, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="note24">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">307,288</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Content">C-HY</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st30">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,288</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4747</Property>
+    <Property name="StNum">Y12</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row4">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">160,288</Property>
+    <Property name="Size">96,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NC, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="nc3">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,288</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">True</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4743</Property>
+    <Property name="Comment">强制输出</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M2242</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no3">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,192</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4736</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M502</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.Note, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="note23">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">307,192</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Content">C-HR</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st29">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,192</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4741</Property>
+    <Property name="StNum">Y12</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row3">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">160,192</Property>
+    <Property name="Size">96,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NC, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="nc2">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,192</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">True</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4737</Property>
+    <Property name="Comment">强制输出</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M2242</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no70">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,240</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4739</Property>
+    <Property name="Comment">强制输出</Property>
+    <Property name="Rightup">True</Property>
+    <Property name="Address">M2242</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no69">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,240</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4738</Property>
+    <Property name="Comment">红灯强制输出</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M6502</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Row, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="row1">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">112,96</Property>
+    <Property name="Size">144,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.ST, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="st1">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">256,96</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4735</Property>
+    <Property name="StNum">Y31</Property>
+    <Property name="Comment">
+    </Property>
+    <Property name="State">0</Property>
+  </Object>
+  <Object type="ControlLibrary.Cass.Note, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="note1">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">307,96</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="ILRow">0</Property>
+    <Property name="Content">C-ST</Property>
+  </Object>
+  <Object type="ControlLibrary.NO, ControlLibrary, Version=1.0.5416.28745, Culture=neutral, PublicKeyToken=null" name="no1">
+    <Property name="ControlSize">48</Property>
+    <Property name="Location">64,96</Property>
+    <Property name="Size">48,48</Property>
+    <Property name="Rightdown">False</Property>
+    <Property name="DebugArrow">False</Property>
+    <Property name="ILRow">4734</Property>
+    <Property name="Comment">伺服马达启动</Property>
+    <Property name="Rightup">False</Property>
+    <Property name="Address">M500</Property>
+    <Property name="State">0</Property>
+  </Object>
+</LadderDiagram>

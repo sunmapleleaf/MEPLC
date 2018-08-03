@@ -1,0 +1,2726 @@
+<符号地址信息>
+  <Object name="symbolList">
+    <Object name="SymbolList">
+      <Property name="Symbol">M10</Property>
+      <Property name="Address">M10</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M100</Property>
+      <Property name="Address">M100</Property>
+      <Property name="Comment">关模段低压标志</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1000</Property>
+      <Property name="Address">M1000</Property>
+      <Property name="Comment">开关门一次标志</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1001</Property>
+      <Property name="Address">M1001</Property>
+      <Property name="Comment">合模安全标志</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1002</Property>
+      <Property name="Address">M1002</Property>
+      <Property name="Comment">动作允许标志</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1003</Property>
+      <Property name="Address">M1003</Property>
+      <Property name="Comment">再循环延时</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1004</Property>
+      <Property name="Address">M1004</Property>
+      <Property name="Comment">手动调模状态</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M101</Property>
+      <Property name="Address">M101</Property>
+      <Property name="Comment">关模高压段标志</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M102</Property>
+      <Property name="Address">M102</Property>
+      <Property name="Comment">开模终</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M104</Property>
+      <Property name="Address">M104</Property>
+      <Property name="Comment">顶进终</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M105</Property>
+      <Property name="Address">M105</Property>
+      <Property name="Comment">预喷终标志</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M106</Property>
+      <Property name="Address">M106</Property>
+      <Property name="Comment">射出终</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M107</Property>
+      <Property name="Address">M107</Property>
+      <Property name="Comment">射退终</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M110</Property>
+      <Property name="Address">M110</Property>
+      <Property name="Comment">储料终</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1100</Property>
+      <Property name="Address">M1100</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1101</Property>
+      <Property name="Address">M1101</Property>
+      <Property name="Comment">座台进</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1102</Property>
+      <Property name="Address">M1102</Property>
+      <Property name="Comment">射进</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1103</Property>
+      <Property name="Address">M1103</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1104</Property>
+      <Property name="Address">M1104</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1105</Property>
+      <Property name="Address">M1105</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1106</Property>
+      <Property name="Address">M1106</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1107</Property>
+      <Property name="Address">M1107</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M111</Property>
+      <Property name="Address">M111</Property>
+      <Property name="Comment">清料结束</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1110</Property>
+      <Property name="Address">M1110</Property>
+      <Property name="Comment">储料</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1111</Property>
+      <Property name="Address">M1111</Property>
+      <Property name="Comment">射退</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1112</Property>
+      <Property name="Address">M1112</Property>
+      <Property name="Comment">座台退</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1113</Property>
+      <Property name="Address">M1113</Property>
+      <Property name="Comment">开模</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1117</Property>
+      <Property name="Address">M1117</Property>
+      <Property name="Comment">储前冷却</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M112</Property>
+      <Property name="Address">M112</Property>
+      <Property name="Comment">座进终</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1120</Property>
+      <Property name="Address">M1120</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1121</Property>
+      <Property name="Address">M1121</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1122</Property>
+      <Property name="Address">M1122</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1123</Property>
+      <Property name="Address">M1123</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1124</Property>
+      <Property name="Address">M1124</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1125</Property>
+      <Property name="Address">M1125</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1126</Property>
+      <Property name="Address">M1126</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1127</Property>
+      <Property name="Address">M1127</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M113</Property>
+      <Property name="Address">M113</Property>
+      <Property name="Comment">座退终</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1130</Property>
+      <Property name="Address">M1130</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1131</Property>
+      <Property name="Address">M1131</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1132</Property>
+      <Property name="Address">M1132</Property>
+      <Property name="Comment">定次</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1133</Property>
+      <Property name="Address">M1133</Property>
+      <Property name="Comment">停留</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1134</Property>
+      <Property name="Address">M1134</Property>
+      <Property name="Comment">震动</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1135</Property>
+      <Property name="Address">M1135</Property>
+      <Property name="Comment">关门合模</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1136</Property>
+      <Property name="Address">M1136</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1137</Property>
+      <Property name="Address">M1137</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M114</Property>
+      <Property name="Address">M114</Property>
+      <Property name="Comment">中子1进终</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1140</Property>
+      <Property name="Address">M1140</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M115</Property>
+      <Property name="Address">M115</Property>
+      <Property name="Comment">中子1退终</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M116</Property>
+      <Property name="Address">M116</Property>
+      <Property name="Comment">中子2进终</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1163</Property>
+      <Property name="Address">M1163</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M117</Property>
+      <Property name="Address">M117</Property>
+      <Property name="Comment">中子2退终</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1171</Property>
+      <Property name="Address">M1171</Property>
+      <Property name="Comment">单齿调模</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1172</Property>
+      <Property name="Address">M1172</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1173</Property>
+      <Property name="Address">M1173</Property>
+      <Property name="Comment">结束</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1176</Property>
+      <Property name="Address">M1176</Property>
+      <Property name="Comment">合的上</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1177</Property>
+      <Property name="Address">M1177</Property>
+      <Property name="Comment">合不上</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M120</Property>
+      <Property name="Address">M120</Property>
+      <Property name="Comment">中子3进终</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1205</Property>
+      <Property name="Address">M1205</Property>
+      <Property name="Comment">压力消失标志</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M121</Property>
+      <Property name="Address">M121</Property>
+      <Property name="Comment">中子3退终</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1210</Property>
+      <Property name="Address">M1210</Property>
+      <Property name="Comment">预塑过程</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1211</Property>
+      <Property name="Address">M1211</Property>
+      <Property name="Comment">储前射退</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1212</Property>
+      <Property name="Address">M1212</Property>
+      <Property name="Comment">储前射退位置控制</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1213</Property>
+      <Property name="Address">M1213</Property>
+      <Property name="Comment">储前射退时间控制</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1214</Property>
+      <Property name="Address">M1214</Property>
+      <Property name="Comment">射退时间控制</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1215</Property>
+      <Property name="Address">M1215</Property>
+      <Property name="Comment">射退位置控制</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1217</Property>
+      <Property name="Address">M1217</Property>
+      <Property name="Comment">冷却</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M122</Property>
+      <Property name="Address">M122</Property>
+      <Property name="Comment">首次开模位置</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1220</Property>
+      <Property name="Address">M1220</Property>
+      <Property name="Comment">中子A进</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1230</Property>
+      <Property name="Address">M1230</Property>
+      <Property name="Comment">电眼检出标志</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1232</Property>
+      <Property name="Address">M1232</Property>
+      <Property name="Comment">中子合模起始判断</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1233</Property>
+      <Property name="Address">M1233</Property>
+      <Property name="Comment">中子A进结束跳转判断</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1234</Property>
+      <Property name="Address">M1234</Property>
+      <Property name="Comment">中子B进结束跳转判断</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1237</Property>
+      <Property name="Address">M1237</Property>
+      <Property name="Comment">中子B退结束跳转判断</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M124</Property>
+      <Property name="Address">M124</Property>
+      <Property name="Comment">差动合模使用标志</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1240</Property>
+      <Property name="Address">M1240</Property>
+      <Property name="Comment">中子A退结束跳转判断</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M125</Property>
+      <Property name="Address">M125</Property>
+      <Property name="Comment">关模快速输出类型</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M126</Property>
+      <Property name="Address">M126</Property>
+      <Property name="Comment">射出转保压位置</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M127</Property>
+      <Property name="Address">M127</Property>
+      <Property name="Comment">储前射退终标志</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M130</Property>
+      <Property name="Address">M130</Property>
+      <Property name="Comment">射出归零</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1303</Property>
+      <Property name="Address">M1303</Property>
+      <Property name="Comment">吹气</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1305</Property>
+      <Property name="Address">M1305</Property>
+      <Property name="Comment">预喷过程</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1306</Property>
+      <Property name="Address">M1306</Property>
+      <Property name="Comment">类似于二次注射</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M131</Property>
+      <Property name="Address">M131</Property>
+      <Property name="Comment">脱模归零</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1317</Property>
+      <Property name="Address">M1317</Property>
+      <Property name="Comment">冷却未结束</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M132</Property>
+      <Property name="Address">M132</Property>
+      <Property name="Comment">座台归零</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M133</Property>
+      <Property name="Address">M133</Property>
+      <Property name="Comment">模座归零</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M134</Property>
+      <Property name="Address">M134</Property>
+      <Property name="Comment">合模低压标志中变</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M135</Property>
+      <Property name="Address">M135</Property>
+      <Property name="Comment">合模高压标志中变</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1410</Property>
+      <Property name="Address">M1410</Property>
+      <Property name="Comment">选择合模前中子动作</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M1411</Property>
+      <Property name="Address">M1411</Property>
+      <Property name="Comment">选择开模中子</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M142</Property>
+      <Property name="Address">M142</Property>
+      <Property name="Comment">脱模震动位置</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M143</Property>
+      <Property name="Address">M143</Property>
+      <Property name="Comment">射退开始标志</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M150</Property>
+      <Property name="Address">M150</Property>
+      <Property name="Comment">公模吹气位置</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M151</Property>
+      <Property name="Address">M151</Property>
+      <Property name="Comment">母模吹气位置</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M156</Property>
+      <Property name="Address">M156</Property>
+      <Property name="Comment">中子保持</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M157</Property>
+      <Property name="Address">M157</Property>
+      <Property name="Comment">中子保护使用标志</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M160</Property>
+      <Property name="Address">M160</Property>
+      <Property name="Comment">A中子使用标志</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M161</Property>
+      <Property name="Address">M161</Property>
+      <Property name="Comment">B中子使用标志</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M162</Property>
+      <Property name="Address">M162</Property>
+      <Property name="Comment">标准A中子标志</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M163</Property>
+      <Property name="Address">M163</Property>
+      <Property name="Comment">标准B中子标志</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M200</Property>
+      <Property name="Address">M200</Property>
+      <Property name="Comment">调模进启动</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2000</Property>
+      <Property name="Address">M2000</Property>
+      <Property name="Comment">手动</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2001</Property>
+      <Property name="Address">M2001</Property>
+      <Property name="Comment">半自动</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2002</Property>
+      <Property name="Address">M2002</Property>
+      <Property name="Comment">电眼自动</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2003</Property>
+      <Property name="Address">M2003</Property>
+      <Property name="Comment">时间自动</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2004</Property>
+      <Property name="Address">M2004</Property>
+      <Property name="Comment">调模使用</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2005</Property>
+      <Property name="Address">M2005</Property>
+      <Property name="Comment">调模进</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2006</Property>
+      <Property name="Address">M2006</Property>
+      <Property name="Comment">调模退</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2007</Property>
+      <Property name="Address">M2007</Property>
+      <Property name="Comment">开模</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M201</Property>
+      <Property name="Address">M201</Property>
+      <Property name="Comment">调模退</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2010</Property>
+      <Property name="Address">M2010</Property>
+      <Property name="Comment">合模命令</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2011</Property>
+      <Property name="Address">M2011</Property>
+      <Property name="Comment">顶进</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2012</Property>
+      <Property name="Address">M2012</Property>
+      <Property name="Comment">顶退</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2013</Property>
+      <Property name="Address">M2013</Property>
+      <Property name="Comment">射出</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2014</Property>
+      <Property name="Address">M2014</Property>
+      <Property name="Comment">射退</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2015</Property>
+      <Property name="Address">M2015</Property>
+      <Property name="Comment">储料</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2016</Property>
+      <Property name="Address">M2016</Property>
+      <Property name="Comment">自动清料</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2017</Property>
+      <Property name="Address">M2017</Property>
+      <Property name="Comment">座进</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M202</Property>
+      <Property name="Address">M202</Property>
+      <Property name="Comment">开模启动</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2020</Property>
+      <Property name="Address">M2020</Property>
+      <Property name="Comment">座退</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2021</Property>
+      <Property name="Address">M2021</Property>
+      <Property name="Comment">中子1进</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2022</Property>
+      <Property name="Address">M2022</Property>
+      <Property name="Comment">中子1退</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2023</Property>
+      <Property name="Address">M2023</Property>
+      <Property name="Comment">中子2进</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2024</Property>
+      <Property name="Address">M2024</Property>
+      <Property name="Comment">中子2退</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2025</Property>
+      <Property name="Address">M2025</Property>
+      <Property name="Comment">中子3进</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2026</Property>
+      <Property name="Address">M2026</Property>
+      <Property name="Comment">中子3退</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2027</Property>
+      <Property name="Address">M2027</Property>
+      <Property name="Comment">公模吹气</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M203</Property>
+      <Property name="Address">M203</Property>
+      <Property name="Comment">合模启动</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2030</Property>
+      <Property name="Address">M2030</Property>
+      <Property name="Comment">母模吹气</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2031</Property>
+      <Property name="Address">M2031</Property>
+      <Property name="Comment">润滑</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2032</Property>
+      <Property name="Address">M2032</Property>
+      <Property name="Comment">电机启动</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2033</Property>
+      <Property name="Address">M2033</Property>
+      <Property name="Comment">电热开关</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M204</Property>
+      <Property name="Address">M204</Property>
+      <Property name="Comment">顶进</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M205</Property>
+      <Property name="Address">M205</Property>
+      <Property name="Comment">顶退</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M206</Property>
+      <Property name="Address">M206</Property>
+      <Property name="Comment">射出</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M207</Property>
+      <Property name="Address">M207</Property>
+      <Property name="Comment">射退</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M210</Property>
+      <Property name="Address">M210</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2104</Property>
+      <Property name="Address">M2104</Property>
+      <Property name="Comment">自动调模</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2105</Property>
+      <Property name="Address">M2105</Property>
+      <Property name="Comment">调模进</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2106</Property>
+      <Property name="Address">M2106</Property>
+      <Property name="Comment">调模退</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2107</Property>
+      <Property name="Address">M2107</Property>
+      <Property name="Comment">开模</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M211</Property>
+      <Property name="Address">M211</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2110</Property>
+      <Property name="Address">M2110</Property>
+      <Property name="Comment">合模</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2111</Property>
+      <Property name="Address">M2111</Property>
+      <Property name="Comment">顶进</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2112</Property>
+      <Property name="Address">M2112</Property>
+      <Property name="Comment">顶退</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2113</Property>
+      <Property name="Address">M2113</Property>
+      <Property name="Comment">射出</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2114</Property>
+      <Property name="Address">M2114</Property>
+      <Property name="Comment">射退</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2115</Property>
+      <Property name="Address">M2115</Property>
+      <Property name="Comment">储料</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2117</Property>
+      <Property name="Address">M2117</Property>
+      <Property name="Comment">座进</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M212</Property>
+      <Property name="Address">M212</Property>
+      <Property name="Comment">座进</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2120</Property>
+      <Property name="Address">M2120</Property>
+      <Property name="Comment">座退</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2121</Property>
+      <Property name="Address">M2121</Property>
+      <Property name="Comment">中子A进</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2123</Property>
+      <Property name="Address">M2123</Property>
+      <Property name="Comment">中子B进</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2127</Property>
+      <Property name="Address">M2127</Property>
+      <Property name="Comment">公模吹气</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M213</Property>
+      <Property name="Address">M213</Property>
+      <Property name="Comment">座退</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2130</Property>
+      <Property name="Address">M2130</Property>
+      <Property name="Comment">母模吹气</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2131</Property>
+      <Property name="Address">M2131</Property>
+      <Property name="Comment">保压一段</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2132</Property>
+      <Property name="Address">M2132</Property>
+      <Property name="Comment">保压二段</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2133</Property>
+      <Property name="Address">M2133</Property>
+      <Property name="Comment">保压三段</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2134</Property>
+      <Property name="Address">M2134</Property>
+      <Property name="Comment">保压四段</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2135</Property>
+      <Property name="Address">M2135</Property>
+      <Property name="Comment">保压五段</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M214</Property>
+      <Property name="Address">M214</Property>
+      <Property name="Comment">中子1进</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2140</Property>
+      <Property name="Address">M2140</Property>
+      <Property name="Comment">料管温度报警标志</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2141</Property>
+      <Property name="Address">M2141</Property>
+      <Property name="Comment">屏蔽</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2142</Property>
+      <Property name="Address">M2142</Property>
+      <Property name="Comment">强制输出允许标志</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2143</Property>
+      <Property name="Address">M2143</Property>
+      <Property name="Comment">油温偏差</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2144</Property>
+      <Property name="Address">M2144</Property>
+      <Property name="Comment">油温过高</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2145</Property>
+      <Property name="Address">M2145</Property>
+      <Property name="Comment">手动按钮空闲标志</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2146</Property>
+      <Property name="Address">M2146</Property>
+      <Property name="Comment">加热按下标志</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2147</Property>
+      <Property name="Address">M2147</Property>
+      <Property name="Comment">油温偏低</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M215</Property>
+      <Property name="Address">M215</Property>
+      <Property name="Comment">中子1退</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2151</Property>
+      <Property name="Address">M2151</Property>
+      <Property name="Comment">B类报警</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2152</Property>
+      <Property name="Address">M2152</Property>
+      <Property name="Comment">C类报警</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2153</Property>
+      <Property name="Address">M2153</Property>
+      <Property name="Comment">清除所有报警</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2154</Property>
+      <Property name="Address">M2154</Property>
+      <Property name="Comment">料管温度偏高</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2155</Property>
+      <Property name="Address">M2155</Property>
+      <Property name="Comment">关模低压段标志</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2156</Property>
+      <Property name="Address">M2156</Property>
+      <Property name="Comment">定时加温</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2157</Property>
+      <Property name="Address">M2157</Property>
+      <Property name="Comment">定时关加热</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M216</Property>
+      <Property name="Address">M216</Property>
+      <Property name="Comment">中子2进</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2160</Property>
+      <Property name="Address">M2160</Property>
+      <Property name="Comment">调模进退标志</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2161</Property>
+      <Property name="Address">M2161</Property>
+      <Property name="Comment">调模数减半标志</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2162</Property>
+      <Property name="Address">M2162</Property>
+      <Property name="Comment">电机启动完成标志</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2163</Property>
+      <Property name="Address">M2163</Property>
+      <Property name="Comment">前门开是否允许动作</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2164</Property>
+      <Property name="Address">M2164</Property>
+      <Property name="Comment">静压支撑是否使用标志</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2165</Property>
+      <Property name="Address">M2165</Property>
+      <Property name="Comment">喷嘴使用标志</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M217</Property>
+      <Property name="Address">M217</Property>
+      <Property name="Comment">中子2退</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2205</Property>
+      <Property name="Address">M2205</Property>
+      <Property name="Comment">调模进</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2206</Property>
+      <Property name="Address">M2206</Property>
+      <Property name="Comment">调模退</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2216</Property>
+      <Property name="Address">M2216</Property>
+      <Property name="Comment">自动清料</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M222</Property>
+      <Property name="Address">M222</Property>
+      <Property name="Comment">公模吹气</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M223</Property>
+      <Property name="Address">M223</Property>
+      <Property name="Comment">母模吹气</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2233</Property>
+      <Property name="Address">M2233</Property>
+      <Property name="Comment">喷嘴开</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2234</Property>
+      <Property name="Address">M2234</Property>
+      <Property name="Comment">喷嘴关</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2235</Property>
+      <Property name="Address">M2235</Property>
+      <Property name="Comment">静压支撑</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2240</Property>
+      <Property name="Address">M2240</Property>
+      <Property name="Comment">加热按下标志2</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2242</Property>
+      <Property name="Address">M2242</Property>
+      <Property name="Comment">强制输出</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M230</Property>
+      <Property name="Address">M230</Property>
+      <Property name="Comment">全程计时标志</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2305</Property>
+      <Property name="Address">M2305</Property>
+      <Property name="Comment">调模进阀</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2306</Property>
+      <Property name="Address">M2306</Property>
+      <Property name="Comment">调模退阀</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2307</Property>
+      <Property name="Address">M2307</Property>
+      <Property name="Comment">开模阀</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M231</Property>
+      <Property name="Address">M231</Property>
+      <Property name="Comment">使用保压一段</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2310</Property>
+      <Property name="Address">M2310</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2311</Property>
+      <Property name="Address">M2311</Property>
+      <Property name="Comment">顶进阀</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2312</Property>
+      <Property name="Address">M2312</Property>
+      <Property name="Comment">顶退阀</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2313</Property>
+      <Property name="Address">M2313</Property>
+      <Property name="Comment">射出阀</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2314</Property>
+      <Property name="Address">M2314</Property>
+      <Property name="Comment">储前射退</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2315</Property>
+      <Property name="Address">M2315</Property>
+      <Property name="Comment">储料阀</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2317</Property>
+      <Property name="Address">M2317</Property>
+      <Property name="Comment">座进阀</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M232</Property>
+      <Property name="Address">M232</Property>
+      <Property name="Comment">使用保压二段</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2320</Property>
+      <Property name="Address">M2320</Property>
+      <Property name="Comment">座退阀</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2321</Property>
+      <Property name="Address">M2321</Property>
+      <Property name="Comment">A中子进</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2323</Property>
+      <Property name="Address">M2323</Property>
+      <Property name="Comment">B中子进</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M233</Property>
+      <Property name="Address">M233</Property>
+      <Property name="Comment">使用保压三段</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M234</Property>
+      <Property name="Address">M234</Property>
+      <Property name="Comment">使用保压四段</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M235</Property>
+      <Property name="Address">M235</Property>
+      <Property name="Comment">使用保压五段</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2407</Property>
+      <Property name="Address">M2407</Property>
+      <Property name="Comment">开模</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2410</Property>
+      <Property name="Address">M2410</Property>
+      <Property name="Comment">关模</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2411</Property>
+      <Property name="Address">M2411</Property>
+      <Property name="Comment">顶进</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2412</Property>
+      <Property name="Address">M2412</Property>
+      <Property name="Comment">顶退</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2413</Property>
+      <Property name="Address">M2413</Property>
+      <Property name="Comment">射出+保压</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2414</Property>
+      <Property name="Address">M2414</Property>
+      <Property name="Comment">射退</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2415</Property>
+      <Property name="Address">M2415</Property>
+      <Property name="Comment">储料</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2417</Property>
+      <Property name="Address">M2417</Property>
+      <Property name="Comment">座进</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2420</Property>
+      <Property name="Address">M2420</Property>
+      <Property name="Comment">座退</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M250</Property>
+      <Property name="Address">M250</Property>
+      <Property name="Comment">质量参数存储</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2505</Property>
+      <Property name="Address">M2505</Property>
+      <Property name="Comment">调模进_自动调模</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2506</Property>
+      <Property name="Address">M2506</Property>
+      <Property name="Comment">调模退_自动调模</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2507</Property>
+      <Property name="Address">M2507</Property>
+      <Property name="Comment">调模开模</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2510</Property>
+      <Property name="Address">M2510</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2513</Property>
+      <Property name="Address">M2513</Property>
+      <Property name="Comment">射出</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2514</Property>
+      <Property name="Address">M2514</Property>
+      <Property name="Comment">储前射退</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2515</Property>
+      <Property name="Address">M2515</Property>
+      <Property name="Comment">储料</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2517</Property>
+      <Property name="Address">M2517</Property>
+      <Property name="Comment">座进阀</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2605</Property>
+      <Property name="Address">M2605</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2606</Property>
+      <Property name="Address">M2606</Property>
+      <Property name="Comment">调模退_自动调模</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2607</Property>
+      <Property name="Address">M2607</Property>
+      <Property name="Comment">调模开模</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2610</Property>
+      <Property name="Address">M2610</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2705</Property>
+      <Property name="Address">M2705</Property>
+      <Property name="Comment">调模进_自动调模</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M2706</Property>
+      <Property name="Address">M2706</Property>
+      <Property name="Comment">调模退_自动调模</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M300</Property>
+      <Property name="Address">M300</Property>
+      <Property name="Comment">手动</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3000</Property>
+      <Property name="Address">M3000</Property>
+      <Property name="Comment">请放开急停键</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3007</Property>
+      <Property name="Address">M3007</Property>
+      <Property name="Comment">脱模未到位报警</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M301</Property>
+      <Property name="Address">M301</Property>
+      <Property name="Comment">半自动</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3010</Property>
+      <Property name="Address">M3010</Property>
+      <Property name="Comment">温度偏差</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3011</Property>
+      <Property name="Address">M3011</Property>
+      <Property name="Comment">射出防护罩未关</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3012</Property>
+      <Property name="Address">M3012</Property>
+      <Property name="Comment">润滑油位偏差</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3013</Property>
+      <Property name="Address">M3013</Property>
+      <Property name="Comment">油量检出失败</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3014</Property>
+      <Property name="Address">M3014</Property>
+      <Property name="Comment">限位失败</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3015</Property>
+      <Property name="Address">M3015</Property>
+      <Property name="Comment">马达超载</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3016</Property>
+      <Property name="Address">M3016</Property>
+      <Property name="Comment">油温过高</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3017</Property>
+      <Property name="Address">M3017</Property>
+      <Property name="Comment">油压安全开关</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M302</Property>
+      <Property name="Address">M302</Property>
+      <Property name="Comment">电眼自动</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3020</Property>
+      <Property name="Address">M3020</Property>
+      <Property name="Comment">后安全门未关</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3021</Property>
+      <Property name="Address">M3021</Property>
+      <Property name="Comment">调模终已</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3022</Property>
+      <Property name="Address">M3022</Property>
+      <Property name="Comment">脱模退未检出</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3023</Property>
+      <Property name="Address">M3023</Property>
+      <Property name="Comment">电机未启动</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3024</Property>
+      <Property name="Address">M3024</Property>
+      <Property name="Comment">油温偏低报警</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3025</Property>
+      <Property name="Address">M3025</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M303</Property>
+      <Property name="Address">M303</Property>
+      <Property name="Comment">时间自动</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3030</Property>
+      <Property name="Address">M3030</Property>
+      <Property name="Comment">全程未定时完成</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3031</Property>
+      <Property name="Address">M3031</Property>
+      <Property name="Comment">位置设定不良</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3032</Property>
+      <Property name="Address">M3032</Property>
+      <Property name="Comment">润滑检出失败</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3033</Property>
+      <Property name="Address">M3033</Property>
+      <Property name="Comment">调模电眼失败</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3034</Property>
+      <Property name="Address">M3034</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3036</Property>
+      <Property name="Address">M3036</Property>
+      <Property name="Comment">润滑2检出失败</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M304</Property>
+      <Property name="Address">M304</Property>
+      <Property name="Comment">调模使用</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3040</Property>
+      <Property name="Address">M3040</Property>
+      <Property name="Comment">脱模未到位报警</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3042</Property>
+      <Property name="Address">M3042</Property>
+      <Property name="Comment">开模数已到</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3043</Property>
+      <Property name="Address">M3043</Property>
+      <Property name="Comment">开模未到定位</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3044</Property>
+      <Property name="Address">M3044</Property>
+      <Property name="Comment">脱模失败</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3045</Property>
+      <Property name="Address">M3045</Property>
+      <Property name="Comment">储料未定时完成</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3046</Property>
+      <Property name="Address">M3046</Property>
+      <Property name="Comment">关模未到定位</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M305</Property>
+      <Property name="Address">M305</Property>
+      <Property name="Comment">调模进</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3050</Property>
+      <Property name="Address">M3050</Property>
+      <Property name="Comment">射出时间偏差</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3051</Property>
+      <Property name="Address">M3051</Property>
+      <Property name="Comment">关模保护失败</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3052</Property>
+      <Property name="Address">M3052</Property>
+      <Property name="Comment">射退终未到定位</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3053</Property>
+      <Property name="Address">M3053</Property>
+      <Property name="Comment">储料终未到定位</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3054</Property>
+      <Property name="Address">M3054</Property>
+      <Property name="Comment">中子未到定位</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3055</Property>
+      <Property name="Address">M3055</Property>
+      <Property name="Comment">脱模退未检出</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3056</Property>
+      <Property name="Address">M3056</Property>
+      <Property name="Comment">请开安全门提醒</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3057</Property>
+      <Property name="Address">M3057</Property>
+      <Property name="Comment">中子动作位置偏差</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M306</Property>
+      <Property name="Address">M306</Property>
+      <Property name="Comment">调模退</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3060</Property>
+      <Property name="Address">M3060</Property>
+      <Property name="Comment">请开安全门提醒</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3061</Property>
+      <Property name="Address">M3061</Property>
+      <Property name="Comment">完成自动调模</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3062</Property>
+      <Property name="Address">M3062</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3063</Property>
+      <Property name="Address">M3063</Property>
+      <Property name="Comment">喷嘴关未到报警</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3067</Property>
+      <Property name="Address">M3067</Property>
+      <Property name="Comment">脱模退未到定位报警</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M307</Property>
+      <Property name="Address">M307</Property>
+      <Property name="Comment">自动调模</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3070</Property>
+      <Property name="Address">M3070</Property>
+      <Property name="Comment">油温偏差</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3071</Property>
+      <Property name="Address">M3071</Property>
+      <Property name="Comment">储料转速偏差</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3072</Property>
+      <Property name="Address">M3072</Property>
+      <Property name="Comment">开模装数已到</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3073</Property>
+      <Property name="Address">M3073</Property>
+      <Property name="Comment">请按启动键</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3074</Property>
+      <Property name="Address">M3074</Property>
+      <Property name="Comment">加热未开报警</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3075</Property>
+      <Property name="Address">M3075</Property>
+      <Property name="Comment">前安全门未关</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3076</Property>
+      <Property name="Address">M3076</Property>
+      <Property name="Comment">座进前未合模到位</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M3077</Property>
+      <Property name="Address">M3077</Property>
+      <Property name="Comment">温度偏差报警</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M310</Property>
+      <Property name="Address">M310</Property>
+      <Property name="Comment">合模</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M311</Property>
+      <Property name="Address">M311</Property>
+      <Property name="Comment">顶进</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M312</Property>
+      <Property name="Address">M312</Property>
+      <Property name="Comment">顶退</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M313</Property>
+      <Property name="Address">M313</Property>
+      <Property name="Comment">射进</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M314</Property>
+      <Property name="Address">M314</Property>
+      <Property name="Comment">射退</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M315</Property>
+      <Property name="Address">M315</Property>
+      <Property name="Comment">储料</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M316</Property>
+      <Property name="Address">M316</Property>
+      <Property name="Comment">自动清料</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M317</Property>
+      <Property name="Address">M317</Property>
+      <Property name="Comment">座台进</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M320</Property>
+      <Property name="Address">M320</Property>
+      <Property name="Comment">座台退</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M321</Property>
+      <Property name="Address">M321</Property>
+      <Property name="Comment">中子1进</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M322</Property>
+      <Property name="Address">M322</Property>
+      <Property name="Comment">中子1退</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M323</Property>
+      <Property name="Address">M323</Property>
+      <Property name="Comment">中子2进</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M324</Property>
+      <Property name="Address">M324</Property>
+      <Property name="Comment">中子2退</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M325</Property>
+      <Property name="Address">M325</Property>
+      <Property name="Comment">开模</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M326</Property>
+      <Property name="Address">M326</Property>
+      <Property name="Comment">母模吹气</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M327</Property>
+      <Property name="Address">M327</Property>
+      <Property name="Comment">公模吹气</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M330</Property>
+      <Property name="Address">M330</Property>
+      <Property name="Comment">锁屏</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M331</Property>
+      <Property name="Address">M331</Property>
+      <Property name="Comment">润滑</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M332</Property>
+      <Property name="Address">M332</Property>
+      <Property name="Comment">电机启动</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M333</Property>
+      <Property name="Address">M333</Property>
+      <Property name="Comment">电热开关</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M334</Property>
+      <Property name="Address">M334</Property>
+      <Property name="Comment">报警复位</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M335</Property>
+      <Property name="Address">M335</Property>
+      <Property name="Comment">中子4进</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M336</Property>
+      <Property name="Address">M336</Property>
+      <Property name="Comment">中子4退</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M337</Property>
+      <Property name="Address">M337</Property>
+      <Property name="Comment">公模吹气2</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M340</Property>
+      <Property name="Address">M340</Property>
+      <Property name="Comment">母模吹气2</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M341</Property>
+      <Property name="Address">M341</Property>
+      <Property name="Comment">公模吹气3</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M342</Property>
+      <Property name="Address">M342</Property>
+      <Property name="Comment">母模吹气3</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M343</Property>
+      <Property name="Address">M343</Property>
+      <Property name="Comment">公模吹气4</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M344</Property>
+      <Property name="Address">M344</Property>
+      <Property name="Comment">母模吹气4</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M345</Property>
+      <Property name="Address">M345</Property>
+      <Property name="Comment">开门</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M346</Property>
+      <Property name="Address">M346</Property>
+      <Property name="Comment">关门</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M347</Property>
+      <Property name="Address">M347</Property>
+      <Property name="Comment">循环启动</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M350</Property>
+      <Property name="Address">M350</Property>
+      <Property name="Comment">加热接触器检测</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M351</Property>
+      <Property name="Address">M351</Property>
+      <Property name="Comment">安全阀前后控制开关</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M352</Property>
+      <Property name="Address">M352</Property>
+      <Property name="Comment">安全阀检测</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M353</Property>
+      <Property name="Address">M353</Property>
+      <Property name="Comment">伺服系统报警</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M354</Property>
+      <Property name="Address">M354</Property>
+      <Property name="Comment">关模终</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M355</Property>
+      <Property name="Address">M355</Property>
+      <Property name="Comment">马达过载</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M356</Property>
+      <Property name="Address">M356</Property>
+      <Property name="Comment">注射防护罩</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M357</Property>
+      <Property name="Address">M357</Property>
+      <Property name="Comment">顶退终</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M360</Property>
+      <Property name="Address">M360</Property>
+      <Property name="Comment">安全先导阀检测</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M361</Property>
+      <Property name="Address">M361</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M362</Property>
+      <Property name="Address">M362</Property>
+      <Property name="Comment">后安全门关终</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M363</Property>
+      <Property name="Address">M363</Property>
+      <Property name="Comment">吸油过滤检测</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M364</Property>
+      <Property name="Address">M364</Property>
+      <Property name="Comment">螺杆转速检测</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M365</Property>
+      <Property name="Address">M365</Property>
+      <Property name="Comment">调模电眼</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M366</Property>
+      <Property name="Address">M366</Property>
+      <Property name="Comment">检出电眼</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M367</Property>
+      <Property name="Address">M367</Property>
+      <Property name="Comment">前关门终</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M370</Property>
+      <Property name="Address">M370</Property>
+      <Property name="Comment">机械安全检测</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M371</Property>
+      <Property name="Address">M371</Property>
+      <Property name="Comment">润滑油位检测</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M372</Property>
+      <Property name="Address">M372</Property>
+      <Property name="Comment">中子1进终</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M373</Property>
+      <Property name="Address">M373</Property>
+      <Property name="Comment">中子2进终</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M374</Property>
+      <Property name="Address">M374</Property>
+      <Property name="Comment">中子1退终</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M375</Property>
+      <Property name="Address">M375</Property>
+      <Property name="Comment">中子2退终</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M376</Property>
+      <Property name="Address">M376</Property>
+      <Property name="Comment">油位检测</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M377</Property>
+      <Property name="Address">M377</Property>
+      <Property name="Comment">润滑末端检测</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M400</Property>
+      <Property name="Address">M400</Property>
+      <Property name="Comment">调模进终</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M401</Property>
+      <Property name="Address">M401</Property>
+      <Property name="Comment">调模退终</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M4014</Property>
+      <Property name="Address">M4014</Property>
+      <Property name="Comment">开模未到定位报警</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M4015</Property>
+      <Property name="Address">M4015</Property>
+      <Property name="Comment">脱模失败报警</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M402</Property>
+      <Property name="Address">M402</Property>
+      <Property name="Comment">急停按下</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M403</Property>
+      <Property name="Address">M403</Property>
+      <Property name="Comment">中子1绞牙计数</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M404</Property>
+      <Property name="Address">M404</Property>
+      <Property name="Comment">中子2绞牙计数</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M405</Property>
+      <Property name="Address">M405</Property>
+      <Property name="Comment">喷嘴开终</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M406</Property>
+      <Property name="Address">M406</Property>
+      <Property name="Comment">喷嘴关终</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M407</Property>
+      <Property name="Address">M407</Property>
+      <Property name="Comment">润滑2末端压力检测</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M410</Property>
+      <Property name="Address">M410</Property>
+      <Property name="Comment">静压支撑需充液</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M432</Property>
+      <Property name="Address">M432</Property>
+      <Property name="Comment">电机停止</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M500</Property>
+      <Property name="Address">M500</Property>
+      <Property name="Comment">伺服马达启动</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M501</Property>
+      <Property name="Address">M501</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M503</Property>
+      <Property name="Address">M503</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M504</Property>
+      <Property name="Address">M504</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M505</Property>
+      <Property name="Address">M505</Property>
+      <Property name="Comment">允许加热</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M506</Property>
+      <Property name="Address">M506</Property>
+      <Property name="Comment">润滑马达</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M507</Property>
+      <Property name="Address">M507</Property>
+      <Property name="Comment">射出</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M510</Property>
+      <Property name="Address">M510</Property>
+      <Property name="Comment">射退</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M5100</Property>
+      <Property name="Address">M5100</Property>
+      <Property name="Comment">微动调模标志</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M5101</Property>
+      <Property name="Address">M5101</Property>
+      <Property name="Comment">是否使用半齿调模</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M5102</Property>
+      <Property name="Address">M5102</Property>
+      <Property name="Comment">微动调模齿数到</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M5103</Property>
+      <Property name="Address">M5103</Property>
+      <Property name="Comment">半齿调模到</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M511</Property>
+      <Property name="Address">M511</Property>
+      <Property name="Comment">储料</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M512</Property>
+      <Property name="Address">M512</Property>
+      <Property name="Comment">座进</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M513</Property>
+      <Property name="Address">M513</Property>
+      <Property name="Comment">座退</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M514</Property>
+      <Property name="Address">M514</Property>
+      <Property name="Comment">顶进</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M515</Property>
+      <Property name="Address">M515</Property>
+      <Property name="Comment">顶退</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M516</Property>
+      <Property name="Address">M516</Property>
+      <Property name="Comment">中子1进</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M517</Property>
+      <Property name="Address">M517</Property>
+      <Property name="Comment">中子1退</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M520</Property>
+      <Property name="Address">M520</Property>
+      <Property name="Comment">调模进</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M521</Property>
+      <Property name="Address">M521</Property>
+      <Property name="Comment">调模退</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M522</Property>
+      <Property name="Address">M522</Property>
+      <Property name="Comment">中子2进</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M523</Property>
+      <Property name="Address">M523</Property>
+      <Property name="Comment">中子2退</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M524</Property>
+      <Property name="Address">M524</Property>
+      <Property name="Comment">公模吹气</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M525</Property>
+      <Property name="Address">M525</Property>
+      <Property name="Comment">母模吹气</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M526</Property>
+      <Property name="Address">M526</Property>
+      <Property name="Comment">开模</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M533</Property>
+      <Property name="Address">M533</Property>
+      <Property name="Comment">伺服复位</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M534</Property>
+      <Property name="Address">M534</Property>
+      <Property name="Comment">合模</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M536</Property>
+      <Property name="Address">M536</Property>
+      <Property name="Comment">星型启动</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M537</Property>
+      <Property name="Address">M537</Property>
+      <Property name="Comment">三角形启动</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M540</Property>
+      <Property name="Address">M540</Property>
+      <Property name="Comment">辅助注射</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M541</Property>
+      <Property name="Address">M541</Property>
+      <Property name="Comment">储料背压阀</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M542</Property>
+      <Property name="Address">M542</Property>
+      <Property name="Comment">系统泵加载</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M543</Property>
+      <Property name="Address">M543</Property>
+      <Property name="Comment">开模快速</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M544</Property>
+      <Property name="Address">M544</Property>
+      <Property name="Comment">关模低压</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M545</Property>
+      <Property name="Address">M545</Property>
+      <Property name="Comment">机械手</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M546</Property>
+      <Property name="Address">M546</Property>
+      <Property name="Comment">润滑马达2</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M547</Property>
+      <Property name="Address">M547</Property>
+      <Property name="Comment">喷嘴开</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M550</Property>
+      <Property name="Address">M550</Property>
+      <Property name="Comment">喷嘴关</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M5500</Property>
+      <Property name="Address">M5500</Property>
+      <Property name="Comment">模拟量输出</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M5502</Property>
+      <Property name="Address">M5502</Property>
+      <Property name="Comment">红灯屏上控制</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M5503</Property>
+      <Property name="Address">M5503</Property>
+      <Property name="Comment">黄灯屏上控制</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M5504</Property>
+      <Property name="Address">M5504</Property>
+      <Property name="Comment">绿灯屏上控制</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M5505</Property>
+      <Property name="Address">M5505</Property>
+      <Property name="Comment">强制加热</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M5506</Property>
+      <Property name="Address">M5506</Property>
+      <Property name="Comment">强制润滑</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M551</Property>
+      <Property name="Address">M551</Property>
+      <Property name="Comment">静压支撑充液</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M5514</Property>
+      <Property name="Address">M5514</Property>
+      <Property name="Comment">强制顶进</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M5515</Property>
+      <Property name="Address">M5515</Property>
+      <Property name="Comment">顶退</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M5534</Property>
+      <Property name="Address">M5534</Property>
+      <Property name="Comment">强制合模</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M556</Property>
+      <Property name="Address">M556</Property>
+      <Property name="Comment">风扇5</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M557</Property>
+      <Property name="Address">M557</Property>
+      <Property name="Comment">风扇6</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M560</Property>
+      <Property name="Address">M560</Property>
+      <Property name="Comment">风扇7</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M561</Property>
+      <Property name="Address">M561</Property>
+      <Property name="Comment">风扇8</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M632</Property>
+      <Property name="Address">M632</Property>
+      <Property name="Comment">指示灯_马达启动</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M633</Property>
+      <Property name="Address">M633</Property>
+      <Property name="Comment">指示灯_电热开关</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M6500</Property>
+      <Property name="Address">M6500</Property>
+      <Property name="Comment">模拟量强制输出中变</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M6502</Property>
+      <Property name="Address">M6502</Property>
+      <Property name="Comment">红灯强制输出</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M6503</Property>
+      <Property name="Address">M6503</Property>
+      <Property name="Comment">黄灯强制输出</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M6504</Property>
+      <Property name="Address">M6504</Property>
+      <Property name="Comment">绿灯强制输出</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M700</Property>
+      <Property name="Address">M700</Property>
+      <Property name="Comment">调模进终报警</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">M701</Property>
+      <Property name="Address">M701</Property>
+      <Property name="Comment">调模退终报警</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">T110</Property>
+      <Property name="Address">T110</Property>
+      <Property name="Comment">定量润滑总时间</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">T16</Property>
+      <Property name="Address">T16</Property>
+      <Property name="Comment">座台进阀断延时</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">T17</Property>
+      <Property name="Address">T17</Property>
+      <Property name="Comment">座退阀断延时</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">T22</Property>
+      <Property name="Address">T22</Property>
+      <Property name="Comment">脱模退未到定位</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">T23</Property>
+      <Property name="Address">T23</Property>
+      <Property name="Comment">开模未到定位</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">T25</Property>
+      <Property name="Address">T25</Property>
+      <Property name="Comment">自动调模定时1</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">T26</Property>
+      <Property name="Address">T26</Property>
+      <Property name="Comment">自动调模定时3</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">T27</Property>
+      <Property name="Address">T27</Property>
+      <Property name="Comment">开模前延时</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">T32</Property>
+      <Property name="Address">T32</Property>
+      <Property name="Comment">三角形启动开延时</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">T33</Property>
+      <Property name="Address">T33</Property>
+      <Property name="Comment">油温过高计时</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">T46</Property>
+      <Property name="Address">T46</Property>
+      <Property name="Comment">电眼检出4秒计时</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">T54</Property>
+      <Property name="Address">T54</Property>
+      <Property name="Comment">星型启动计时</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">T55</Property>
+      <Property name="Address">T55</Property>
+      <Property name="Comment">电机延迟启动</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">T56</Property>
+      <Property name="Address">T56</Property>
+      <Property name="Comment">初次上电电机启动延时</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">T61</Property>
+      <Property name="Address">T61</Property>
+      <Property name="Comment">冷却计时</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">T63</Property>
+      <Property name="Address">T63</Property>
+      <Property name="Comment">储前射退计时</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">T64</Property>
+      <Property name="Address">T64</Property>
+      <Property name="Comment">射退计时模式</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">T70</Property>
+      <Property name="Address">T70</Property>
+      <Property name="Comment">射退终未到定位</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">T71</Property>
+      <Property name="Address">T71</Property>
+      <Property name="Comment">射出报警上限</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">T72</Property>
+      <Property name="Address">T72</Property>
+      <Property name="Comment">储料未定时完成</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">T73</Property>
+      <Property name="Address">T73</Property>
+      <Property name="Comment">动作计时</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">T75</Property>
+      <Property name="Address">T75</Property>
+      <Property name="Comment">射出时间控制</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">T77</Property>
+      <Property name="Address">T77</Property>
+      <Property name="Comment">电眼检出4秒计时</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X0</Property>
+      <Property name="Address">X0</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X1</Property>
+      <Property name="Address">X1</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X10</Property>
+      <Property name="Address">X10</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X11</Property>
+      <Property name="Address">X11</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X12</Property>
+      <Property name="Address">X12</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X13</Property>
+      <Property name="Address">X13</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X14</Property>
+      <Property name="Address">X14</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X15</Property>
+      <Property name="Address">X15</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X16</Property>
+      <Property name="Address">X16</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X17</Property>
+      <Property name="Address">X17</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X2</Property>
+      <Property name="Address">X2</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X20</Property>
+      <Property name="Address">X20</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X21</Property>
+      <Property name="Address">X21</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X22</Property>
+      <Property name="Address">X22</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X23</Property>
+      <Property name="Address">X23</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X24</Property>
+      <Property name="Address">X24</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X25</Property>
+      <Property name="Address">X25</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X26</Property>
+      <Property name="Address">X26</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X27</Property>
+      <Property name="Address">X27</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X3</Property>
+      <Property name="Address">X3</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X30</Property>
+      <Property name="Address">X30</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X31</Property>
+      <Property name="Address">X31</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X32</Property>
+      <Property name="Address">X32</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X33</Property>
+      <Property name="Address">X33</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X4</Property>
+      <Property name="Address">X4</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X40</Property>
+      <Property name="Address">X40</Property>
+      <Property name="Comment">手动</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X41</Property>
+      <Property name="Address">X41</Property>
+      <Property name="Comment">半自动</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X42</Property>
+      <Property name="Address">X42</Property>
+      <Property name="Comment">时间自动</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X43</Property>
+      <Property name="Address">X43</Property>
+      <Property name="Comment">电眼自动</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X44</Property>
+      <Property name="Address">X44</Property>
+      <Property name="Comment">调模使用</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X45</Property>
+      <Property name="Address">X45</Property>
+      <Property name="Comment">自动调模</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X46</Property>
+      <Property name="Address">X46</Property>
+      <Property name="Comment">锁屏</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X5</Property>
+      <Property name="Address">X5</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X50</Property>
+      <Property name="Address">X50</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X56</Property>
+      <Property name="Address">X56</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X6</Property>
+      <Property name="Address">X6</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X60</Property>
+      <Property name="Address">X60</Property>
+      <Property name="Comment">手动</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X61</Property>
+      <Property name="Address">X61</Property>
+      <Property name="Comment">半自动</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X62</Property>
+      <Property name="Address">X62</Property>
+      <Property name="Comment">全自动</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X63</Property>
+      <Property name="Address">X63</Property>
+      <Property name="Comment">调模使用</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X64</Property>
+      <Property name="Address">X64</Property>
+      <Property name="Comment">开模</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X65</Property>
+      <Property name="Address">X65</Property>
+      <Property name="Comment">合模</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X66</Property>
+      <Property name="Address">X66</Property>
+      <Property name="Comment">射出</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X67</Property>
+      <Property name="Address">X67</Property>
+      <Property name="Comment">射退</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X7</Property>
+      <Property name="Address">X7</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X71</Property>
+      <Property name="Address">X71</Property>
+      <Property name="Comment">顶进</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X72</Property>
+      <Property name="Address">X72</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">X73</Property>
+      <Property name="Address">X73</Property>
+      <Property name="Comment">座台进</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">Y0</Property>
+      <Property name="Address">Y0</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">Y10</Property>
+      <Property name="Address">Y10</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">Y11</Property>
+      <Property name="Address">Y11</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">Y13</Property>
+      <Property name="Address">Y13</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">Y14</Property>
+      <Property name="Address">Y14</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">Y142</Property>
+      <Property name="Address">Y142</Property>
+      <Property name="Comment">中子2进</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">Y143</Property>
+      <Property name="Address">Y143</Property>
+      <Property name="Comment">中子2退</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">Y15</Property>
+      <Property name="Address">Y15</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">Y152</Property>
+      <Property name="Address">Y152</Property>
+      <Property name="Comment">中子1进</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">Y153</Property>
+      <Property name="Address">Y153</Property>
+      <Property name="Comment">中子1退</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">Y20</Property>
+      <Property name="Address">Y20</Property>
+      <Property name="Comment">报警绿灯</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">Y21</Property>
+      <Property name="Address">Y21</Property>
+      <Property name="Comment">报警红灯</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">Y22</Property>
+      <Property name="Address">Y22</Property>
+      <Property name="Comment">报警黄灯</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">Y25</Property>
+      <Property name="Address">Y25</Property>
+      <Property name="Comment">冷水阀</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">Y26</Property>
+      <Property name="Address">Y26</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">Y27</Property>
+      <Property name="Address">Y27</Property>
+      <Property name="Comment">电机报警复位</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">Y34</Property>
+      <Property name="Address">Y34</Property>
+      <Property name="Comment">合模</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">Y35</Property>
+      <Property name="Address">Y35</Property>
+      <Property name="Comment">合模</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">Y400</Property>
+      <Property name="Address">Y400</Property>
+      <Property name="Comment">指示灯_手动</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">Y401</Property>
+      <Property name="Address">Y401</Property>
+      <Property name="Comment">指示灯_半自动</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">Y402</Property>
+      <Property name="Address">Y402</Property>
+      <Property name="Comment">指示灯_电眼自动</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">Y403</Property>
+      <Property name="Address">Y403</Property>
+      <Property name="Comment">指示灯_时间自动</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">Y404</Property>
+      <Property name="Address">Y404</Property>
+      <Property name="Comment">指示灯_调模使用</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">Y416</Property>
+      <Property name="Address">Y416</Property>
+      <Property name="Comment">指示灯_自动清料</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">Y431</Property>
+      <Property name="Address">Y431</Property>
+      <Property name="Comment">指示灯_润滑马达</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">Y432</Property>
+      <Property name="Address">Y432</Property>
+      <Property name="Comment">指示灯_马达启动</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">Y433</Property>
+      <Property name="Address">Y433</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">Y46</Property>
+      <Property name="Address">Y46</Property>
+      <Property name="Comment">快速合模</Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">Y5</Property>
+      <Property name="Address">Y5</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">Y6</Property>
+      <Property name="Address">Y6</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">Y7</Property>
+      <Property name="Address">Y7</Property>
+      <Property name="Comment">
+      </Property>
+    </Object>
+    <Object name="SymbolList">
+      <Property name="Symbol">Y70</Property>
+      <Property name="Address">Y70</Property>
+      <Property name="Comment">顶退指示灯</Property>
+    </Object>
+  </Object>
+</符号地址信息>

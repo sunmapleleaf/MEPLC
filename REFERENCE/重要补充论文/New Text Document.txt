@@ -1,0 +1,9 @@
+@article{Zaeh2005A,
+  title={A Model-Based Method to Develop PLC Software for Machine Tools},
+  author={Zaeh, M. F. and Poernbacher, C. and Milberg, J.},
+  journal={CIRP Annals - Manufacturing Technology},
+  volume={54},
+  number={1},
+  pages={371-374},
+  year={2005},
+}

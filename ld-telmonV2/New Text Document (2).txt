@@ -1,0 +1,35 @@
+double setUpVel = 0.0, setUpPre = 0.0;
+
+setUpVel = (double)(CassMem[1024]);
+setUpPre = (double)(CassMem[1028]);
+
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+double setUpVel = 0.0, setUpPre = 0.0;
+int CassMem[3000];
+
+CassMem[1024] = 1;
+CassMem[1028] = 2;
+
+setUpVel = (double)(CassMem[1024]);
+setUpPre = (double)(CassMem[1028]);
+ if(!(setUpVel > 0.0 && setUpVel < 30.0 && setUpPre > 0.0 && setUpPre < 30.0))
+ { printf("%s","Error");
+	return -1;
+ }
+ else
+ {
+	 analogOutput(setUpVel);
+	 analogOutput(setUpPre);
+ }
+   return 0;
+}
+
+void analogOutput(double aOut)
+{
+		printf("%f",aOut);
+}
