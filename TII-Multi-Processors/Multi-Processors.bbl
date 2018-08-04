@@ -168,6 +168,18 @@ Z.~Hajduk, B.~Trybus, and J.~Sadolewski, ``Architecture of fpga embedded
   multiprocessor programmable controller,'' \emph{IEEE Transactions on
   Industrial Electronics}, vol.~62, no.~5, pp. 2952--2961, 2015.
 
+\bibitem{Chmiel2016An}
+M.~Chmiel, J.~Kulisz, R.~Czerwinski, A.~Krzyzyk, M.~Rosol, and P.~Smolarek,
+  ``An iec 61131-3-based plc implemented by means of an fpga,'' in
+  \emph{IEEE/IFAC PDES Conference}, 2016, pp. 28--37.
+
+\bibitem{IEC1993Programmable}
+I.~61131-3, \emph{Programmable controllers - part 3: Programming languages.},
+  1993.
+
+\bibitem{PLCopen2005Function}
+P.~T.~C. 2., \emph{Function blocks for motion control version 1.1}, 2005.
+
 \bibitem{S2006Advanced}
 C.~Sünder, A.~Zoitl, F.~Mehofer, and B.~Favre-Bulle, ``Advanced use of plcopen
   motion control library for autonomous servo drives in iec 61499 based
@@ -179,9 +191,34 @@ S.~S.~S. GmbH, ``Logic and motion control integrated in one iec 61131-3
   system:development kit for convenient engineering of motion, cnc and robot
   applications.'' 2017.
 
+\bibitem{Bonfe2001Object}
+M.~Bonfe and C.~Fantuzzi, ``Object-oriented approach to plc software design for
+  a manufacture machinery using iec 61131-3 norm languages,'' in
+  \emph{Ieee/asme International Conference on Advanced Intelligent
+  Mechatronics, 2001. Proceedings}, 2001, pp. 787--792 vol.2.
+
+\bibitem{Werner2009Object}
+B.~Werner, ``Object-oriented extensions for iec 61131-3,'' \emph{Industrial
+  Electronics Magazine IEEE}, vol.~3, no.~4, pp. 36--39, 2009.
+
+\bibitem{Basile2013On}
+F.~Basile, P.~Chiacchio, and D.~Gerbasio, ``On the implementation of industrial
+  automation systems based on plc,'' \emph{IEEE Transactions on Automation
+  Science & Engineering}, vol.~10, no.~4, pp. 990--1003, 2013.
+
 \bibitem{OMRON2006CS1W}
 O.~Co.Ltd, ``Cs1w-mc221(-v1)/mc421(-v1) motion control units.'' \emph{Operation
   Mannual}, 2004.
+
+\bibitem{Bonf2013Design}
+M.~Bonfè, C.~Fantuzzi, and C.~Secchi, ``Design patterns for model-based
+  automation software design and implementation,'' \emph{Control Engineering
+  Practice}, vol.~21, no.~11, pp. 1608--1619, 2013.
+
+\bibitem{Vyatkin2013Software}
+V.~Vyatkin, ``Software engineering in industrial automation: State-of-the-art
+  review,'' \emph{IEEE Transactions on Industrial Informatics}, vol.~9, no.~3,
+  pp. 1234--1249, 2013.
 
 \bibitem{Yan2010Compiling}
 Y.~Yan and H.~Zhang, ``Compiling ladder diagram into instruction list to comply
