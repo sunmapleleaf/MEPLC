@@ -173,6 +173,10 @@ M.~Chmiel, J.~Kulisz, R.~Czerwinski, A.~Krzyzyk, M.~Rosol, and P.~Smolarek,
   ``An iec 61131-3-based plc implemented by means of an fpga,'' in
   \emph{IEEE/IFAC PDES Conference}, 2016, pp. 28--37.
 
+\bibitem{OMRON2006CS1W}
+O.~Co.Ltd, ``Cs1w-mc221(-v1)/mc421(-v1) motion control units.'' \emph{Operation
+  Mannual}, 2004.
+
 \bibitem{IEC1993Programmable}
 I.~61131-3, \emph{Programmable controllers - part 3: Programming languages.},
   1993.
@@ -206,10 +210,6 @@ F.~Basile, P.~Chiacchio, and D.~Gerbasio, ``On the implementation of industrial
   automation systems based on plc,'' \emph{IEEE Transactions on Automation
   Science & Engineering}, vol.~10, no.~4, pp. 990--1003, 2013.
 
-\bibitem{OMRON2006CS1W}
-O.~Co.Ltd, ``Cs1w-mc221(-v1)/mc421(-v1) motion control units.'' \emph{Operation
-  Mannual}, 2004.
-
 \bibitem{Bonf2013Design}
 M.~Bonfè, C.~Fantuzzi, and C.~Secchi, ``Design patterns for model-based
   automation software design and implementation,'' \emph{Control Engineering
@@ -219,6 +219,16 @@ M.~Bonfè, C.~Fantuzzi, and C.~Secchi, ``Design patterns for model-based
 V.~Vyatkin, ``Software engineering in industrial automation: State-of-the-art
   review,'' \emph{IEEE Transactions on Industrial Informatics}, vol.~9, no.~3,
   pp. 1234--1249, 2013.
+
+\bibitem{Verscheure2016User}
+O.~Verscheure, X.~Garcia, G.~Karlsson, and J.~P. Hubaux, ``User-oriented qos in
+  packet video delivery,'' \emph{IEEE Network}, vol.~12, no.~6, pp. 12--21,
+  2016.
+
+\bibitem{Choi2017A}
+N.~Choi, D.~Kim, S.~J. Lee, and Y.~Yi, ``A fog operating system for
+  user-oriented iot services: Challenges and research directions,'' \emph{IEEE
+  Communications Magazine}, vol.~55, no.~8, pp. 44--51, 2017.
 
 \bibitem{Yan2010Compiling}
 Y.~Yan and H.~Zhang, ``Compiling ladder diagram into instruction list to comply

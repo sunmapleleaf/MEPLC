@@ -15,45 +15,45 @@ Warning--empty year in WuA
 Warning--empty journal in 3S2017Logic
 
 Done.
-You've used 40 entries,
+You've used 42 entries,
             4087 wiz_defined-function locations,
-            1064 strings with 15103 characters,
-and the built_in function-call counts, 32602 in all, are:
-= -- 2720
-> -- 752
-< -- 323
-+ -- 438
-- -- 130
-* -- 1589
-:= -- 4919
-add.period$ -- 78
-call.type$ -- 40
-change.case$ -- 37
-chr.to.int$ -- 681
-cite$ -- 42
-duplicate$ -- 2314
-empty$ -- 2387
-format.name$ -- 153
-if$ -- 7639
+            1078 strings with 15465 characters,
+and the built_in function-call counts, 34300 in all, are:
+= -- 2864
+> -- 796
+< -- 339
++ -- 462
+- -- 138
+* -- 1675
+:= -- 5179
+add.period$ -- 82
+call.type$ -- 42
+change.case$ -- 39
+chr.to.int$ -- 711
+cite$ -- 44
+duplicate$ -- 2436
+empty$ -- 2507
+format.name$ -- 163
+if$ -- 8037
 int.to.chr$ -- 0
-int.to.str$ -- 40
-missing$ -- 392
-newline$ -- 143
-num.names$ -- 40
-pop$ -- 774
+int.to.str$ -- 42
+missing$ -- 414
+newline$ -- 149
+num.names$ -- 42
+pop$ -- 816
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 2544
+skip$ -- 2676
 stack$ -- 0
-substring$ -- 1635
-swap$ -- 2025
-text.length$ -- 96
+substring$ -- 1707
+swap$ -- 2133
+text.length$ -- 102
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 40
+type$ -- 42
 warning$ -- 2
-while$ -- 146
-width$ -- 42
-write$ -- 433
+while$ -- 154
+width$ -- 44
+write$ -- 455
 (There were 2 warnings)
