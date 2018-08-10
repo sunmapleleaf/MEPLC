@@ -44,16 +44,17 @@ L.~Ling, C.~Chen, S.~Zhu, and X.~Guan, ``5g enabled co-design of
   \emph{IEEE Transactions on Industrial Informatics}, vol.~PP, no.~99, pp.
   1--1, 2018.
 
-\bibitem{Carlsson2012Methods}
-H.~Carlsson, S.~Bo, F.~Danielsson, and B.~Lennartson, ``Methods for reliable
-  simulation-based plc code verification,'' \emph{IEEE Transactions on
-  Industrial Informatics}, vol.~8, no.~2, pp. 267--278, 2012.
+\bibitem{Jiang2013System}
+Y.~Jiang, H.~Zhang, H.~Liu, X.~Song, W.~N. Hung, M.~Gu, and J.~Sun, ``System
+  reliability calculation based on the run-time analysis of ladder program,''
+  in \emph{Proceedings of the 2013 9th joint meeting on foundations of software
+  engineering}.\hskip 1em plus 0.5em minus 0.4em\relax ACM, 2013, pp. 695--698.
 
-\bibitem{Obermeier2015A}
-M.~Obermeier, S.~Braun, and B.~Vogel-Heuser, ``A model-driven approach on
-  object-oriented plc programming for manufacturing systems with regard to
-  usability,'' \emph{IEEE Transactions on Industrial Informatics}, vol.~11,
-  no.~3, pp. 790--800, 2015.
+\bibitem{Jiang2013Bayesian}
+Y.~Jiang, H.~Zhang, X.~Song, X.~Jiao, W.~N.~N. Hung, M.~Gu, and J.~Sun,
+  ``Bayesian-network-based reliability analysis of plc systems,'' \emph{IEEE
+  Transactions on Industrial Electronics}, vol.~60, no.~11, pp. 5325--5336,
+  2013.
 
 \bibitem{Adiego2015Applying}
 B.~F. Adiego, D.~Darvas, E.~B. Viñuela, J.~C. Tournier, S.~Bliudze, J.~O.
@@ -234,5 +235,10 @@ N.~Choi, D.~Kim, S.~J. Lee, and Y.~Yi, ``A fog operating system for
 Y.~Yan and H.~Zhang, ``Compiling ladder diagram into instruction list to comply
   with iec 61131-3,'' \emph{Computers in Industry}, vol.~61, no.~5, pp.
   448--462, 2010.
+
+\bibitem{G2007On}
+S.~Gören and F.~J. Ferguson, ``On state reduction of incompletely specified
+  finite state machines,'' \emph{Computers \& Electrical Engineering}, vol.~33,
+  no.~1, pp. 58--69, 2007.
 
 \end{thebibliography}
