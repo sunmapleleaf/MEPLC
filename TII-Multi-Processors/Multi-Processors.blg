@@ -17,24 +17,24 @@ Warning--empty journal in 3S2017Logic
 Done.
 You've used 43 entries,
             4087 wiz_defined-function locations,
-            1087 strings with 15754 characters,
-and the built_in function-call counts, 35424 in all, are:
-= -- 2940
-> -- 841
-< -- 348
-+ -- 486
+            1086 strings with 15764 characters,
+and the built_in function-call counts, 35600 in all, are:
+= -- 2954
+> -- 845
+< -- 352
++ -- 490
 - -- 147
-* -- 1729
-:= -- 5320
+* -- 1736
+:= -- 5334
 add.period$ -- 85
 call.type$ -- 43
 change.case$ -- 40
-chr.to.int$ -- 735
+chr.to.int$ -- 747
 cite$ -- 45
-duplicate$ -- 2511
-empty$ -- 2602
+duplicate$ -- 2519
+empty$ -- 2612
 format.name$ -- 173
-if$ -- 8307
+if$ -- 8351
 int.to.chr$ -- 0
 int.to.str$ -- 43
 missing$ -- 430
@@ -44,10 +44,10 @@ pop$ -- 860
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 2759
+skip$ -- 2774
 stack$ -- 0
-substring$ -- 1764
-swap$ -- 2197
+substring$ -- 1792
+swap$ -- 2209
 text.length$ -- 103
 text.prefix$ -- 0
 top$ -- 5

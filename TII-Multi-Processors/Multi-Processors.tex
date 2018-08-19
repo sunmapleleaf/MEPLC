@@ -375,7 +375,7 @@
 % paper title
 % can use linebreaks \\ within to get better formatting as desired
 % Do not put math or special symbols in the title.
-\title{A User-oriented Development Method in Multiprocessor Embeded PLCs}
+\title{A User-oriented Development Method in \textcolor{red}{FSM supported} Multiprocessor Embeded PLCs}
 %
 %
 % author names and IEEE memberships
@@ -455,7 +455,7 @@
 % 
 
 \begin{abstract}
- PLCs (Programmable Logic Controllers) are a base in automation, however applications become complex on logic and motion control mixed scenarios while the PC-based PLC has high price and complex system which can not meet the customized requirement of large equipments. The development of PLC has encountered bottlenecks. Hence, this paper presents a user-oriented development method. We pose a customized mulitprocessor ePLC to enhance the performance, a multi-language supported uniform development platform to improve the adaptability of developers, an optimized system structure (reasonable memory allocation, user-oriented thread structure, LPM data interaction, modular software design, finite state machines) to reduce the development complexity. Ultimately, we adopt the proposed method to implement the distributed control system on a 200 t injection molding machine. By comparison with TECHMATION and KEBA system, the startup time of the implemented system has been increased by more than 20 times while the key performance is almost identical. In addition, the implemented system adopts the customized multiprocessor ePLC and detached HMI.
+  Programmable Logic Controllers (PLCs) are a base in automation, however applications become complex on logic and motion control mixed scenarios while the PC-based PLC has high price and complex system which can not meet the customized requirement of large equipments. The development of PLC has encountered bottlenecks. Hence, this paper presents a user-oriented development method. We pose a customized mulitprocessor ePLC to enhance the performance, a multi-language supported uniform development platform to improve the adaptability of developers, an optimized system structure (reasonable memory allocation, user-oriented thread structure, LPM data interaction, modular software design, finite state machines) to reduce the development complexity. Ultimately, we adopt the proposed method to implement the distributed control system on a 200 ton injection molding machine. By comparison with TECHMATION and KEBA system, the startup time of the implemented system has been increased by more than 20 times while the key performance is almost identical. In addition, the implemented system adopts the customized multiprocessor ePLC and detached HMI.
  
 % * <karyns@accdon.com> 2017-12-24T08:32:14.912Z:
 % 
@@ -622,13 +622,11 @@ As showed in Fig. \ref{fig:SoftwareStructure}, from the user's point of view, af
 
 \subsection{Memory Allocation}  
 
-\textcolor{blue}{The dedicated storage area of PLC in memory is made up of bit data area ($M$ area) and byte data area ($D$ area). Meanwhile, we regard $M$ area and $D$ area as set $M$ of bit and set $D$ of byte. Henceforth, we have three definitions below.}
+\textcolor{red}{The dedicated storage area of PLC in memory is made up of bit data area ($M$ area) and byte data area ($D$ area). Meanwhile, we regard $M$ area and $D$ area as set $M$ of bit and set $D$ of byte. Furthermore, in this remaining paper, if $\exists$ set $S$, we describe its subscripted lowercase letter $s_i$ as an element of $S$ and the subscripted $i$ is used to distinguish the elements. Henceforth, two definitions are illustrated below.}
 
-\textcolor{blue}{\textbf{Definition 1} If $\exists$ set $S$, we define its subscripted lowercase letter $s_i$ as an element of $S$ and the subscripted $i$ is used to distinguish the elements.}
+\textcolor{red}{\textbf{Definition 1} If $ S \subseteq M$ and $(\forall s_{i} \in S) \in \{0, 1\} $. Meanwhile, each element $s_i$ has four operators: $\mathcal{S}_0(s_i)$ denotes that $0$ is assigned to $s_i$, $\mathcal{S}_1(s_i)$ denotes that $1$ is assigned to $s_i$, $\mathcal{J}_0(s_i)$ represents that the value of $s_i$ is $0$, $\mathcal{J}_1(s_i)$ represents that the value of $s_i$ is $1$. Then we define the set $S$ has $\mathcal{B}$ attribute.}
 
-\textcolor{blue}{\textbf{Definition 2} If $\exists S \subseteq M$ and $(\forall s_{i} \in S) \in \{0, 1\} $. Meanwhile, each element $s_i$ has four operators: $\mathcal{S}_0(s_i)$ assigns $0$ to $s_i$, $\mathcal{S}_1(s_i)$ assigns $1$ to $s_i$, $\mathcal{J}_0(s_i)$ represents that the value of $s_i$ is $0$, $\mathcal{J}_1(s_i)$ means that the value of $s_i$ is $1$. Then we define the set $S$ has $\mathcal{B}$ attribute.}
-
-\textcolor{blue}{\textbf{Definition 3} If $\exists S \subseteq D$ and $\forall s_{i} \in S$ has 4 byte. We define the set $S$ has $\mathcal{D}$ attribute:}
+\textcolor{red}{\textbf{Definition 2} If $ S \subseteq D$ and $\forall s_{i} \in S$ has 4 bytes. We define the set $S$ has $\mathcal{D}$ attribute.}
 
 
 
@@ -636,26 +634,26 @@ As showed in Fig. \ref{fig:SoftwareStructure}, from the user's point of view, af
 
 Fig. \ref{fig:Memory} shows the memory allocation of master and slave processors. All slave processors have the same storage structure.
 
-\textbf{$LCF$} (Logic Control Flag Area): the flag are used to start the modules. It has $\mathcal{B}$ attribute.
+\textbf{\emph{LCF}} (Logic Control Flag Area): the flag are used to start the modules. It has $\mathcal{B}$ attribute.
 
-\textbf{$LCD$} (Logic Control Data Area): these data will be used to delivery to algorithm. It has $\mathcal{D}$ attribute.
+\textbf{\emph{LCD}} (Logic Control Data Area): these data will be used to delivery to algorithm. It has $\mathcal{D}$ attribute.
 
-\textbf{$AF$} (Algorithm Flag Area): it includes algorithm flag of execution ($AFE$) and algorithm flag of state ($AFS$).
+\textbf{\emph{AF}} (Algorithm Flag Area): it includes algorithm flag of execution ($AFE$) and algorithm flag of state ($AFS$).
 Both of them have $\mathcal{B}$ attribute.
 
-\textbf{$AD$} (Algorithm Data Area): these data help specified algorithm executing. It has $\mathcal{D}$ attribute.
+\textbf{\emph{AD}} (Algorithm Data Area): these data help specified algorithm executing. It has $\mathcal{D}$ attribute.
 
-\textbf{$MF$} (Message Flag Area): it includes defined message flag ($DMF$) and user customized message flag ($UMF$). $DMF$ is the neccesary message for system execution including start module flag, alarm flag, etc. $UMF$ could be defined by users. Both of them have $\mathcal{B}$ attribute.
+\textbf{\emph{MF}} (Message Flag Area): it includes defined message flag ($DMF$) and user customized message flag ($UMF$). $DMF$ is the neccesary message for system execution including start module flag, alarm flag, etc. $UMF$ could be defined by users. Both of them have $\mathcal{B}$ attribute.
 
-\textbf{$MD$} (Message Data Area): it is used to transfer message information which includes system message data area ($DMD$) and usr message data area ($UMD$). It is defined in $D$ area.
+\textbf{\emph{MD}} (Message Data Area): it is used to transfer message information which includes system message data area ($DMD$) and usr message data area ($UMD$). It is defined in $D$ area.
 
-\textbf{$MPDIF$} (Master Processor Data Interaction Flag Area): it contains begin data transfer flag from master to slave ($MSB$), transfer state of master from master to slave ($MSF$), acknowledge flag of master from master to slave ($MSA$) and transfer state of master from slave to master ($MSS$). All of them have $\mathcal{B}$ attribute.
+\textbf{\emph{MPDIF}} (Master Processor Data Interaction Flag Area): it contains begin data transfer flag from master to slave ($MSB$), transfer state of master from master to slave ($MSF$), acknowledge flag of master from master to slave ($MSA$) and transfer state of master from slave to master ($MSS$). All of them have $\mathcal{B}$ attribute.
 
-\textbf{$MSD$} (Master Processor Data Interaction Data Area): an area stores the data delivered from slave processors and it has $\mathcal{D}$ attribute.
+\textbf{\emph{MSD}} (Master Processor Data Interaction Data Area): an area stores the data delivered from slave processors and it has $\mathcal{D}$ attribute.
 
-\textbf{$SPDIF$} (Slave Processor Data Interaction Flag Area): this area includes the begin data transfer flag from slave to master ($SMB$), transfer state of slave from slave to master ($SMF$), acknowledge flag of slave from slave to master ($SMA$) and transfer state of slave from master to slave ($SMS$). All of them have $\mathcal{B}$ attribute.
+\textbf{\emph{SPDIF}} (Slave Processor Data Interaction Flag Area): this area includes the begin data transfer flag from slave to master ($SMB$), transfer state of slave from slave to master ($SMF$), acknowledge flag of slave from slave to master ($SMA$) and transfer state of slave from master to slave ($SMS$). All of them have $\mathcal{B}$ attribute.
 
-\textbf{$SMD$} (Slave Processor Data Interaction Data Area): an area stores the data delivered from master processor and it has $\mathcal{D}$ attribute.
+\textbf{\emph{SMD}} (Slave Processor Data Interaction Data Area): an area stores the data delivered from master processor and it has $\mathcal{D}$ attribute.
 
 \subsection{User-oriented Thread Design}
 From the user's point of view, in most cases, the logic control program ($LCP$) and algorithm program ($AP$) could be developed dividually \cite{WuA}, hence we have logic thread and algorithm thread. On the other hand, in order to satisfying ever-growing performance requirement of users, we proposed the customized multi-processor ePLC. Correspondingly 
@@ -694,11 +692,11 @@ The compilation contains two parts: compiling graphic language into instruction 
  	
   \textcolor{blue}{In the first part, since we see the multi-language components as an common component, the compilation of graphic language embedded multi-language components is almost the same with the process of \cite{Yan2010Compiling} in which you can find the detailed explanation. As an example shown in Fig. \ref{fig:Compile}, we adopt three steps to implement it:}
  	
- \textbf{Step 1} Convert topology structure to directed graph according to ladder diagram syntax library and analyze the errors of the topology.
+ \textbf{Step 1}: convert topology structure to directed graph according to ladder diagram syntax library and analyze the errors of the topology.
  	
- \textbf{Step 2} Generating a binary decomposition tree according to series and parallel rules.
+ \textbf{Step 2}: generate a binary decomposition tree according to series and parallel rules.
  	
- \textbf{Step 3} Generating IL instructions according to the IL grammar library. For multi-language components, it is described as a program entry.
+ \textbf{Step 3}: generate IL instructions according to the IL grammar library. For multi-language components, it is described as a program entry.
  
  \begin{figure}
  	\centering
@@ -709,14 +707,14 @@ The compilation contains two parts: compiling graphic language into instruction 
  
  \textcolor{blue}{In the second part, the multi-language components will be compiled. For the convenience of users, they can still use the same grammar to program the ePLC dedicated storage area inside the multi-language component, such as $M2000=1$ which represents to give $1$ to the bit area $M2000$,} whereas it is illegal in other languages. Hence, we should compile the component to the identifiable code which contains two steps.
  	
-\textbf{Step 1} Address mapping. Every type of processor has its own $AMR$ (Address Mapping Rules).
+\textbf{Step 1}: address mapping. Every type of processor has its own $AMR$ (Address Mapping Rules).
  \begin{eqnarray}
   APR = \{CID, MAS, DAS, \mathcal{A}_m, \mathcal{A}_d\}
  \end{eqnarray}
  Where $CID$ is the compiler identity, $MAS$ and $DAS$ are the start address of $M$ and $D$ area, respectively. $\mathcal{A}_m$ and $\mathcal{A}_d$ are the rules to map the $M$ and $D$ to the address of processor, respectively, seen Algorithm \ref{alg1} and Algorithm \ref{alg2}. \textcolor{blue}{Algorithm \ref{alg1} translates the four operator of each element $m_i$ of $M$, which are $\mathcal{S}_0(m_i)$, $\mathcal{S}_1(m_i)$, $\mathcal{J}_0(m_i)$, $\mathcal{J}_1(m_i)$, to recognizable form of compiler $CID$. In addition, in PLC platform, we adopt octal so it is necessary to translate the octal number to decimal number. Algorithm \ref{alg1} and Algorithm \ref{alg2} both contain this process.
  } 
  
-\textbf{Step 2} Call the corresponding compiler to compile the component.
+\textbf{Step 2}: call the corresponding compiler to compile the component.
 
 
 \begin{algorithm}
@@ -803,31 +801,31 @@ $\mathcal{J}_1(smf_i)\to GetMessage_{j}(dmf_i)\to GetData(dmd_i)\to\mathcal{E}_j
  \subsection{Execution of Threads}
  Commonly, threads in master processor and in slave processors execute separately according to their priority and the interaction between control thread and algorithm threads occurs when using $\mathcal{P}_{mts}$ and $\mathcal{P}_{mts}$. Basic execution units of control thread are shown as follows:
  
- \textbf{$C_{1}$} Start the module.
+ \textbf{$C_{1}$}: start the module.
  
- \textbf{$C_{2}$} Transfer data to motion thread by $\mathcal{P}_{mts}$.
+ \textbf{$C_{2}$}: transfer data to motion thread by $\mathcal{P}_{mts}$.
  
- \textbf{$C_{3}$} Seal with the feedback data.
+ \textbf{$C_{3}$}: deal with the feedback data.
  
- \textbf{$C_{4}$} Broadcast a message.
+ \textbf{$C_{4}$}: broadcast a message.
  
-  \textbf{$C_{5}$} Handle the message.
+  \textbf{$C_{5}$}: handle the message.
   
  Motion thread contains the following basic execution units:
  
- \textbf{$M_{1}$} Start the algorithm.
+ \textbf{$M_{1}$}: start the algorithm.
  
- \textbf{$M_{2}$} Execute the algorithm.
+ \textbf{$M_{2}$}: execute the algorithm.
  
- \textbf{$M_{3}$} Feedback the data to control thread by $\mathcal{P}_{stm}$.
+ \textbf{$M_{3}$}: feedback the data to control thread by $\mathcal{P}_{stm}$.
  
- \textbf{$M_{4}$} End algorithm.
+ \textbf{$M_{4}$}: end algorithm.
   
   Two cases shown in Fig. \ref{fig:threadFlow} are explained below:
   
-  \textbf{Case one}: execution of control thread and two algorithm threads among three processors. The $CT$ (Control Thread) traverses $LCF$, finds $ms_i$ to be executed , runs $lcp_i$, finds $ap_j$, executes $C_1$ unit, executes $C_2$ unit and then transfers data from $LCD$ to $SMD$ of processor 1. $AT$ (Algorithm Thread) 1 executes $M_1$ unit, executes $M_2$ after transferring data from $SMD$ to $AD$, runs $M_3$ unit, feedbacks data to $CT$. When the $ap_j$ finishes, $AT$ 1 executes $M_4$ and informs $CT$ the end of $ap_j$. $CT$ executes $C_3$ to end the process and then finds $ap_{j+1}$, executes $C_1$ and $C_2$, transfers the data from $LCD$ to $SMD$ of processor 2, $AT$ 2 executes $M_1$ unit, executes $M_2$ after transferring data from $SMD$ to $AD$. When the $ap_{j+1}$ finishes, $AT$ 2 executes $M_4$ unit and informs $CT$ the end of $ap_{j+1}$. $CT$ executes $C_3$ to finish the process.
+  \textbf{Case one}: the execution of control thread and two algorithm threads among three processors. The $CT$ (Control Thread) traverses $LCF$, finds $ms_i$ to be executed , runs $lcp_i$, finds $ap_j$, executes $C_1$ unit, executes $C_2$ unit and then transfers data from $LCD$ to $SMD$ of processor 1. $AT$ (Algorithm Thread) 1 executes $M_1$ unit, executes $M_2$ after transferring data from $SMD$ to $AD$, runs $M_3$ unit, feedbacks data to $CT$. When the $ap_j$ finishes, $AT$ 1 executes $M_4$ and informs $CT$ the end of $ap_j$. $CT$ executes $C_3$ to end the process and then finds $ap_{j+1}$, executes $C_1$ and $C_2$, transfers the data from $LCD$ to $SMD$ of processor 2, $AT$ 2 executes $M_1$ unit, executes $M_2$ after transferring data from $SMD$ to $AD$. When the $ap_{j+1}$ finishes, $AT$ 2 executes $M_4$ unit and informs $CT$ the end of $ap_{j+1}$. $CT$ executes $C_3$ to finish the process.
   
-  \textbf{Case two}: execution of control thread and two algorithm threads among three processors together with message mechanism. The $CT$ traverses $LCF$, finds $ms_i$ to be executed , runs $lcp_i$, finds $ap_j$, executes $C_1$ unit, executes $C_2$ unit and then transfers data from $LCD$ to $SMD$ of processor 1. $AT$ 1 executes $M_1$ unit, executes $M_2$ after transferring data from $SMD$ to $AD$. During the execution of $ms_i$, $CT$ executes $C_4$ to broadcast the message $dmf_x$ to inform $ms_{j}$ to run. After executing of $C_5$, $ms_{j}$ gets data and start, then $CT$ finds $ap_{j+1}$ in $ms_{j}$, executes $C_1$ and $C_2$, transfers the data from $LCD$ to $SMD$ of processor 2, $AT$ 2 executes $M_1$ unit, executes $M_2$ after transferring data from $SMD$ to $AD$. During the execution of $ap_{j+1}$, $AT$ 1 executes $M_4$ and informs $CT$ to execute $C_3$. After that, $ap_{j+1}$ finishes, then $CT$ executes $C_3$ to finish the process.
+  \textbf{Case two}: the execution of control thread and two algorithm threads among three processors together with message mechanism. The $CT$ traverses $LCF$, finds $ms_i$ to be executed , runs $lcp_i$, finds $ap_j$, executes $C_1$ unit, executes $C_2$ unit and then transfers data from $LCD$ to $SMD$ of processor 1. $AT$ 1 executes $M_1$ unit, executes $M_2$ after transferring data from $SMD$ to $AD$. During the execution of $ms_i$, $CT$ executes $C_4$ to broadcast the message $dmf_x$ to inform $ms_{j}$ to run. After executing of $C_5$, $ms_{j}$ gets data and start, then $CT$ finds $ap_{j+1}$ in $ms_{j}$, executes $C_1$ and $C_2$, transfers the data from $LCD$ to $SMD$ of processor 2, $AT$ 2 executes $M_1$ unit, executes $M_2$ after transferring data from $SMD$ to $AD$. During the execution of $ap_{j+1}$, $AT$ 1 executes $M_4$ and informs $CT$ to execute $C_3$. After that, $ap_{j+1}$ finishes, then $CT$ executes $C_3$ to finish the process.
   
 
   
@@ -838,11 +836,11 @@ $\mathcal{J}_1(smf_i)\to GetMessage_{j}(dmf_i)\to GetData(dmd_i)\to\mathcal{E}_j
   	\label{fig:threadFlow}
   \end{figure}
  \subsection{Finite State Machines}
- \textcolor{blue}{ The finite state machines adopt the 3-tuple which are similar with \cite{G2007On}:
+ \textcolor{blue}{ The finite state machines adopt the 5-tuple which is similar with \cite{Hierons2016Parallel}:
  \begin{equation}
- \mathcal{F} = (Q, \Sigma,\delta)
+ \mathcal{F} = (Q, X, Y, \delta, \lambda)
  \end{equation}
- Where $Q = \{q_0, q_1,..., q_i,...q_f\}$ is the collection of states, $q_0 \in Q$ is the initial state and $q_f$ is the final state. $\Sigma = \{\sigma_1, \sigma_2,..., \sigma_n\}$ is the set of events. $\delta: Q \times \Sigma \rightarrow Q$ is the transition relation and we define $q_2 = \delta(q_1, \sigma_1)$ that under the event of $\sigma_1$, the transition from state $q_1$ to state $q_2$ is possible.}
+ Where $Q = \{q_0, q_1,..., q_i\}$ is the collection of states, $q_0 \in Q$ is the initial state and $q_f$ is the final state. $X$ is the finite set of inputs. $Y$ is the finite set of outputs. $\delta$ is the state transition function $\delta: Q\times X \rightarrow Q$. $\lambda$ is the output function $\lambda: Q\times X\rightarrow Y$. If $F$ is in state $q$ and $x$ is occurred, then the $F$ transits to state $q' = \delta(q, x)$ and output $y = \lambda(q, x)$.}
  
  \textcolor{blue}{Hence, we have the following finite state machines of master processor:
   \begin{equation}
@@ -854,12 +852,12 @@ $\mathcal{J}_1(smf_i)\to GetMessage_{j}(dmf_i)\to GetData(dmd_i)\to\mathcal{E}_j
  \end{array}
  \right.
  \end{equation}
- where $mstop$ is the stop state, $mrun$ is the run state and $pdi$ is the data interaction state. The events are defined below.
+ Here, $mstop$ is the stop state and the initial state of master processor, $mrun$ is the run state and $pdi$ is the data interaction state. The inputs are defined below.
  \begin{align}
- \notag\sigma_{m1}&: \exists lcf_i \in LCF = 1\\
-\notag\sigma_{m2}&: \forall lcf_i \in LCF = 0\\
-\notag\sigma_{m3}&: \exists msf_i \in MSF = 1\quad or \quad \exists mss_i \in MSS = 1\\
-\notag\sigma_{m4}&: \forall msf_i \in MSF = 0\quad and \quad \forall mss_i \in MSS = 0
+ \notag x_{m1}&: \exists lcf_i \in LCF = 1\\
+\notag x_{m2}&: \forall lcf_i \in LCF = 0\\
+\notag x_{m3}&: \exists msf_i \in MSF = 1\quad or \quad \exists mss_i \in MSS = 1\\
+\notag x_{m4}&: \forall msf_i \in MSF = 0\quad and \quad \forall mss_i \in MSS = 0
  \end{align}}
 
 \textcolor{blue}{Then we can get the state transitions of master processor:

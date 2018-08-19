@@ -236,9 +236,9 @@ Y.~Yan and H.~Zhang, ``Compiling ladder diagram into instruction list to comply
   with iec 61131-3,'' \emph{Computers in Industry}, vol.~61, no.~5, pp.
   448--462, 2010.
 
-\bibitem{G2007On}
-S.~Gören and F.~J. Ferguson, ``On state reduction of incompletely specified
-  finite state machines,'' \emph{Computers \& Electrical Engineering}, vol.~33,
-  no.~1, pp. 58--69, 2007.
+\bibitem{Hierons2016Parallel}
+R.~M. Hierons and U.~C. Turker, ``Parallel algorithms for testing finite state
+  machines: Generating uio sequences.'' \emph{IEEE Transactions on Software
+  Engineering}, vol.~42, no.~11, pp. 1077--1091, 2016.
 
 \end{thebibliography}
