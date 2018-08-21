@@ -455,7 +455,7 @@
 % 
 
 \begin{abstract}
-  Programmable Logic Controllers (PLCs) are a base in automation, however applications become complex on logic and motion control mixed scenarios while the PC-based PLC has high price and complex system which can not meet the customized requirement of large equipments. The development of PLC has encountered bottlenecks. Hence, this paper presents a user-oriented development method. We pose a customized mulitprocessor ePLC to enhance the performance, a multi-language supported uniform development platform to improve the adaptability of developers, an optimized system structure (reasonable memory allocation, user-oriented thread structure, LPM data interaction, modular software design, finite state machines) to reduce the development complexity. Ultimately, we adopt the proposed method to implement the distributed control system on a 200 ton injection molding machine. By comparison with TECHMATION and KEBA system, the startup time of the implemented system has been increased by more than 20 times while the key performance is almost identical. In addition, the implemented system adopts the customized multiprocessor ePLC and detached HMI.
+  Programmable logic controllers ($PLC$s) are a base in automation, however applications become complex on logic and motion control mixed scenarios while the PC-based $PLC$ has high price and complex system which can not meet the customized requirement of large equipments. The development of $PLC$ has encountered bottlenecks. Hence, this paper presents a user-oriented development method. We pose a customized mulitprocessor $ePLC$ to enhance the performance, a multi-language supported uniform development platform to improve the adaptability of developers, an optimized system structure (reasonable memory allocation, user-oriented thread structure, proposed $LPM$ data interaction, modular software design, finite state machines) to reduce the development complexity. Ultimately, we adopt the proposed method to implement the distributed control system on a 200 ton injection molding machine. By comparison with TECHMATION and KEBA system, the startup time of the implemented system has been increased by more than 20 times while the key performance is almost identical. In addition, the implemented system adopts the customized multiprocessor $ePLC$ and detached human machine interface ($HMI$).
  
 % * <karyns@accdon.com> 2017-12-24T08:32:14.912Z:
 % 
@@ -495,27 +495,27 @@ Multiprocessor, motion control, Injection Molding Machine, embedded PLC, User-or
 
 
 \section{Introduction}
-Some concepts, such as smart factory, intelligent manufacturing \cite{Gonzalez2017Supervisory,Chekired2018Industrial}, and some technologies, such as Internet of Things, 5G, augment reality \cite{Li2018Energy,Ling20185G} are paving the road of the fourth industrial revolution. Normally, a typical plant is full of large equipments, for instance, cranes, CNC machining centers, IMMs (injection molding machines), air pumps, chillers, AGVs and types of robots and most of them are controlled by the PLC. PLCs have become the main control system. Numerous researchers are focusing on PLC technologies which extremely extends its application fields. \cite{Jiang2013System,Jiang2013Bayesian,Adiego2015Applying} guarantee the reliability by verifying the program of PLCs, \cite{Gerk2006Advanced,Chang2007Adaptive,Dominic2016PLC} improve the performance of PLCs using advanced algorithms, \cite{WuA} alleviates the development complexity of PLCs with a special software structure, \cite{Sch2013Development,Morenas2017Shop} pose methods to update PLC programs dynamically.
-However, with the rapidly ever-growing demands and the tend of applications to be user-oriented and complex logic and motion control mixed \cite{Zaeh2005A,Hossain2014Advanced}, PLCs still encountered bottlenecks, specially on large equipments (CNC machining center, IMM, etc.).
+Some concepts, such as smart factory, intelligent manufacturing \cite{Gonzalez2017Supervisory,Chekired2018Industrial}, and some technologies, such as Internet of Things, 5G, augment reality \cite{Li2018Energy,Ling20185G} are paving the road of the fourth industrial revolution. Normally, a typical plant is full of large equipments, for instance, cranes, CNC machining centers, injection molding machines ($IMM$s), air pumps, chillers, automatic guided vehicles and types of robots and most of them are controlled by the $PLC$. $PLC$s have become the main control system. Numerous researchers are focusing on $PLC$ technologies which extremely extends its application fields. \cite{Jiang2013System,Jiang2013Bayesian,Adiego2015Applying} guarantee the reliability by verifying the program of $PLC$s, \cite{Gerk2006Advanced,Chang2007Adaptive,Dominic2016PLC} improve the performance of $PLC$s using advanced algorithms, \cite{WuA} alleviates the development complexity of $PLC$s with a special software structure, \cite{Sch2013Development,Morenas2017Shop} pose methods to update $PLC$ programs dynamically.
+However, with the rapidly ever-growing demands and the tend of applications to be user-oriented and complex logic and motion control mixed \cite{Zaeh2005A,Hossain2014Advanced}, $PLC$s still encountered bottlenecks, specially on large equipments (CNC machining center, $IMM$, etc.).
 
 \subsection{Motivations}
-To date, the hardware architecture of PLCs has two directions: ePLCs (embedded PLCs) and PC-based PLCs. PC-based PLCs are increasingly used on the applications of complex logic and motion control mixed scenarios on account of its high performance and lots of user-oriented tools \cite{Hossain2014Advanced}. Considering the IMM industry, Table \ref{table:IMMSystem} lists the composition of IMM, including parts(described as modules for programming), DI$\backslash$Os and AI$\backslash$Os. Normally, a simplest IMM system consists of 10 modules, 20 DIs, 30 DOs, 3 AIS and 7 AOs. Complex relations among them and high performance requirement of algorithms tremendously increase the difficulty of programming. Hence, as listed in Table \ref{table:IMMControllor}, the comparison of KEBA, BECKHOFF, GAFRAN and TECKMATION system which are the main brand of IMM controller illustrates that almost all of them are using PC-based PLCs. According to the complexity of the IMM system and the software architecture of PC-based PLC, the HMI (Human Machine Interface) is banded to PLC which leads to little independence of IMM manufacturers. 
+To date, the hardware architecture of $PLC$s has two directions: $ePLC$s (embedded $PLC$s) and PC-based $PLC$s. PC-based $PLC$s are increasingly used on the applications of complex logic and motion control mixed scenarios on account of its high performance and lots of user-oriented tools \cite{Hossain2014Advanced}. Considering the IMM industry, Table \ref{table:IMMSystem} lists the composition of IMM, including parts(described as modules for programming), DI$\backslash$Os and AI$\backslash$Os. Normally, a simplest IMM system consists of 10 modules, 20 DIs, 30 DOs, 3 AIS and 7 AOs. Complex relations among them and high performance requirement of algorithms tremendously increase the difficulty of programming. Hence, as listed in Table \ref{table:IMMControllor}, the comparison of KEBA, BECKHOFF, GAFRAN and TECKMATION system which are the main brand of IMM controller illustrates that almost all of them are using PC-based PLCs. According to the complexity of the $IMM$ system and the software architecture of PC-based $PLC$, the $HMI$ is banded to $PLC$ which leads to little independence of $IMM$ manufacturers. 
 
-ePLCs have a wide area of applications in automation due to its easy programming and high reliability, however some disadvantages still limit its further development \cite{Hossain2014Advanced}, especially coping with complex logic and motion control mixed applications. On the other hand, advances in fields of wireless communication, IoT, etc. are accelerated requirement for low power consumption \cite{Arshad2017Green}, which is an advantage of embedded PLC. How to integrate the low power consumption, easy programming and high reliability of ePLC with high performance and usr-oriented development induces our research.
+$ePLC$s have a wide area of applications in automation due to its easy programming and high reliability, however some disadvantages still limit its further development \cite{Hossain2014Advanced}, especially coping with complex logic and motion control mixed applications. On the other hand, advances in fields of wireless communication, Internet of Things, etc. are accelerated requirement for low power consumption \cite{Arshad2017Green}, which is an advantage of embedded $PLC$. How to integrate the low power consumption, easy programming and high reliability of $ePLC$ with high performance and usr-oriented development induces our research.
 
 \subsection{Related Works}
-Various researchers present methods to integrate motion control algorithms (e.g. linear interpolation, position control, arc interpolation, etc.) into PLCs \cite{Ioannides2004Design,Shi2016The,Fang2017Design}. Logic control and motion control become inseparable. Two ways exist to realize the integration: individual motion control module collaborated with PLC \cite{Peng2011Linear} and PLCs directly integrated with motion control functions \cite{Ioannides2004Design,syaichu2011model}. For the way of individual module, different kinds of modules and PLCs which are coded by different languages and developed in their own platforms tremendously increase the complexity to implement applications. \cite{Peng2011Linear,Qian2014A}  and \cite{Panasonic2011Programmable} all describe these modules. The second way simplifies the development method. Nevertheless, it is hard to guarantee high reliability logic control and high accuracy motion control simultaneously, since they run in the same thread. 
+Various researchers present methods to integrate motion control algorithms (e.g. linear interpolation, position control, arc interpolation, etc.) into $PLC$s \cite{Ioannides2004Design,Shi2016The,Fang2017Design}. Logic control and motion control become inseparable. Two ways exist to realize the integration: individual motion control module collaborated with $PLC$ \cite{Peng2011Linear} and $PLC$s directly integrated with motion control functions \cite{Ioannides2004Design,syaichu2011model}. For the way of individual module, different kinds of modules and $PLC$s which are coded by different languages and developed in their own platforms tremendously increase the complexity to implement applications. \cite{Peng2011Linear,Qian2014A}  and \cite{Panasonic2011Programmable} all describe these modules. The second way simplifies the development method. Nevertheless, it is hard to guarantee high reliability logic control and high accuracy motion control simultaneously, since they run in the same thread. 
 
-We propose the concept of multi-processor ePLC (multiple processor chips and multiple cores in one chip are all called multi-processor here). In this ePLC, extra processors (e.g. DSP, FPGA, etc.) are introduced to enhance the performance. Various technologies contribute to the improvement of multiple processor. \cite{Dubois2002Memory,Patel2006Processor} pose data interaction methods among multiple processors, \cite{Zhu2016Providing} presents a method to balance computing ability of the processors, \cite{Albarakat2017MTB} proposes a thread scheduling method in multiprocessors. All of these works are not implemented in ePLC but inspire us to build the architecture of multi-processor ePLC. Moreover, some researches \cite{Hajduk2015Architecture, Chmiel2016An} are be done to introduce additional high performance processors into ePLCs, though no improvement of development method is proposed for complex logic and motion control mixed applications.
+We propose the concept of multi-processor $ePLC$ (multiple processor chips and multiple cores in one chip are all called multi-processor here). In this $ePLC$, extra processors (e.g. DSP, FPGA, etc.) are introduced to enhance the performance. Various technologies contribute to the improvement of multiple processor. \cite{Dubois2002Memory,Patel2006Processor} pose data interaction methods among multiple processors, \cite{Zhu2016Providing} presents a method to balance computing ability of the processors, \cite{Albarakat2017MTB} proposes a thread scheduling method in multiprocessors. All of these works are not implemented in $ePLC$ but inspire us to build the architecture of multi-processor $ePLC$. Moreover, some researches \cite{Hajduk2015Architecture, Chmiel2016An} are be done to introduce additional high performance processors into $ePLC$s, though no improvement of development method is proposed for complex logic and motion control mixed applications.
 
-In terms of development methods of the individual module, which is much convoluted, users should take a lot of time on selecting the platform and take more time on learning the particular software and its supported language. For instance, the PMAC is using C++ \cite{Peng2011Linear,Qian2014A}, the MC421/221 of OMRON CS1 series is supported by G-Code \cite{OMRON2006CS1W}, the FP series PLC of Panasonic is adopted special instructions embedded in LD (Ladder Diagram). Therefore, the uniform developing methodology in PLC platform attracts us. Since the 90's of the last century, IEC-61131 has been focused on the standardization of PLC\cite{IEC1993Programmable}. In 2005, PLCopen organization has released a related standard \cite{PLCopen2005Function} which standardizes the motion control in PLC and then papers, such as \cite{S2006Advanced}, made some interaction on it and companies, such as 3S \cite{3S2017Logic}, provide some tools. Howbeit, regarding some complex applications, programmers are occasionally prefer to use more popular or object-oriented languages (e.g. C, C++, etc.)\cite{Bonfe2001Object, Werner2009Object, Basile2013On} except the specified ones in IEC-61131-3. Recently, some methods, such as model-based software, component-based \cite{Bonf2013Design, Vyatkin2013Software} are also researched to reduce the complexity of PLC program. However, facing the complex control and motion control scenario, a more comprehensively improved development method still should be proposed. Hence, considering the popular concept of user oriented\cite{Verscheure2016User, Choi2017A}, we present a user-oriented development method.
+In terms of development methods of the individual module, which is much convoluted, users should take a lot of time on selecting the platform and take more time on learning the particular software and its supported language. For instance, the PMAC is using C++ \cite{Peng2011Linear,Qian2014A}, the MC421/221 of OMRON CS1 series is supported by G-Code \cite{OMRON2006CS1W}, the FP series $PLC$ of Panasonic is adopted special instructions embedded in LD (Ladder Diagram). Therefore, the uniform developing methodology in $PLC$ platform attracts us. Since the 90's of the last century, IEC-61131 has been focused on the standardization of $PLC$ \cite{IEC1993Programmable}. In 2005, PLCopen organization has released a related standard \cite{PLCopen2005Function} which standardizes the motion control in $PLC$ and then papers, such as \cite{S2006Advanced}, made some interaction on it and companies, such as 3S \cite{3S2017Logic}, provide some tools. Howbeit, regarding some complex applications, programmers are occasionally prefer to use more popular or object-oriented languages (e.g. C, C++, etc.) \cite{Bonfe2001Object, Werner2009Object, Basile2013On} except the specified ones in IEC-61131-3. Recently, some methods, such as model-based software, component-based \cite{Bonf2013Design, Vyatkin2013Software} are also researched to reduce the complexity of $PLC$ program. However, facing the complex control and motion control scenario, a more comprehensively improved development method still should be proposed. Hence, considering the popular concept of user oriented \cite{Verscheure2016User, Choi2017A}, we present a user-oriented development method.
 
 \subsection{Our Contributions}
-To the best of our knowledge, the user-oriented development method should improve every aspect of the PLC system (development method, program, processor, RAM, thread) and propose a comprehensive optimization approach. Hence, we pose a flexible solution to enhance performance by adding sufficient processors, a multi-language supported graphical component to improve the adaptability of developers, an optimized system structure (reasonable memory allocation, user-oriented thread structure, LPM data interaction, modular software design, finite state machines) to reduce the development complexity. Ultimately, we adopt the proposed method to implement a distributed IMM system which is considered as a kind of complex logic and motion control mixed application.
+To the best of our knowledge, the user-oriented development method should improve every aspect of the $PLC$ system (development method, program, processor, $RAM$, thread) and propose a comprehensive optimization approach. Hence, we pose a flexible solution to enhance performance by adding sufficient processors, a multi-language supported graphical component to improve the adaptability of developers, an optimized system structure (reasonable memory allocation, user-oriented thread structure, $LPM$ data interaction, modular software design, finite state machines) to reduce the development complexity. Ultimately, we adopt the proposed method to implement a distributed $IMM$ system which is considered as a kind of complex logic and motion control mixed application.
 
-This remaining paper is organized as follows. Section \ref{MultiProcessorePLC} introduces the system architecture, multi-language supported graphical component, memory allocation, usr-oriented multithreading and modular design. In section \ref{Process}, we present the compilation of graphical component, LPM data interaction mechanism, the execution of multithreading and finite state machines. At last, in section \ref{Experiment}, we implement the IMM distributed system with the posed method and compare it with the TECHMATION and KEBA system from aspects of system condition, system structure and key performance.
+This remaining paper is organized as follows. Section \ref{MultiProcessorePLC} introduces the system architecture, multi-language supported graphical component, memory allocation, usr-oriented multithreading and modular design. In section \ref{Process}, we present the compilation of graphical component, $LPM$ data interaction mechanism, the execution of multithreading and finite state machines. At last, in section \ref{Experiment}, we implement the $IMM$ distributed system with the posed method and compare it with the TECHMATION and KEBA system from aspects of system condition, system structure and key performance.
 \begin{table}
-	\scriptsize \caption{Modules, DI/DO, AI/AO of IMM}
+	\scriptsize \caption{Modules, DI/DO, AI/AO of $IMM$}
 	\label{table:IMMSystem}
 	\begin{center}
 		\renewcommand{\arraystretch}{1.4}
@@ -546,7 +546,7 @@ This remaining paper is organized as follows. Section \ref{MultiProcessorePLC} i
 	\end{center}
 \end{table}
 \begin{table}
-	\scriptsize \caption{System Comparison of PC-Based PLC in IMM}
+	\scriptsize \caption{System Comparison of PC-Based $PLC$ in $IMM$}
 	\label{table:IMMControllor}
 	\begin{center}
 		\renewcommand{\arraystretch}{1.4}
@@ -568,12 +568,12 @@ This remaining paper is organized as follows. Section \ref{MultiProcessorePLC} i
 \end{table}
 \section{System Architecture}
 \label{MultiProcessorePLC}
-\subsection{Hardware Structure of ePLC}
-Fig.\ref{fig:HardwareStructure} shows a type of hardware structure of multi-processor ePLC which contains a master processor and two slave processors. The master processor is responsible for logic control, communication, etc. The slave processor is designed for complex algorithms which could be customized on demand (the number of processors, DI$\backslash$Os, AI$\backslash$Os and controlled servo motors).
+\subsection{Hardware Structure of $ePLC$}
+Fig.\ref{fig:HardwareStructure} shows a type of hardware structure of multi-processor $ePLC$ which contains a master processor and two slave processors. The master processor is responsible for logic control, communication, etc. The slave processor is designed for complex algorithms which could be customized on demand (the number of processors, DI$\backslash$Os, AI$\backslash$Os and controlled servo motors).
 \begin{figure}
 	\centering
 	\includegraphics[width=3.5in]{fig/FIG2.pdf}
-	\caption{ \textcolor{blue}{A type of hardware structure of multi-processor ePLC which contains a master processor and two slave processors.}}
+	\caption{ A type of hardware structure of multi-processor $ePLC$ which contains a master processor and two slave processors.}
 	\label{fig:HardwareStructure}
 \end{figure}
 \subsection{Multi-language supported graphical component}
@@ -604,11 +604,11 @@ where:
 
 Fig. \ref{fig:Component} illustrates two component design: single component and component with input and output. The single component has function name, left series, right series, upwards parallel and downwards parallel. In component with input and output, it contains function name, left series, right series, upwards parallel, downwards parallel, parameter address, parameter number, data address and data number.
 
-As showed in Fig. \ref{fig:SoftwareStructure}, from the user's point of view, after inducing the multi-language component, the algorithm and logic program could be developed in a uniform PLC platform. Multi-language components are supported by multiple languages such as IL instructions, ST language, C language, C++ language, etc. Algorithms contained in components are mainly motion control algorithms.
+As showed in Fig. \ref{fig:SoftwareStructure}, from the user's point of view, after inducing the multi-language component, the algorithm and logic program could be developed in a uniform $PLC$ platform. Multi-language components are supported by multiple languages such as IL instructions, ST language, C language, C++ language, etc. Algorithms contained in components are mainly motion control algorithms.
 \begin{figure}
 	\centering
 	\includegraphics[width=3in]{fig/FIG3.pdf}
-	\caption{ From the user's point of view, after inducing the multi-language component, the algorithm and logic program could be developed in a uniform PLC platform.}
+	\caption{ From the user's point of view, after inducing the multi-language component, the algorithm and logic program could be developed in a uniform $PLC$ platform.}
 	\label{fig:SoftwareStructure}
 \end{figure}
 
@@ -622,14 +622,11 @@ As showed in Fig. \ref{fig:SoftwareStructure}, from the user's point of view, af
 
 \subsection{Memory Allocation}  
 
-\textcolor{red}{The dedicated storage area of PLC in memory is made up of bit data area ($M$ area) and byte data area ($D$ area). Meanwhile, we regard $M$ area and $D$ area as set $M$ of bit and set $D$ of byte. Furthermore, in this remaining paper, if $\exists$ set $S$, we describe its subscripted lowercase letter $s_i$ as an element of $S$ and the subscripted $i$ is used to distinguish the elements. Henceforth, two definitions are illustrated below.}
+\textcolor{red}{The dedicated storage area of $PLC$ in memory is made up of bit data area ($M$ area) and byte data area ($D$ area). Meanwhile, we regard $M$ area and $D$ area as set $M$ of bit and set $D$ of byte. Furthermore, in this remaining paper, if $\exists$ set $T$, we describe its subscripted lowercase letter $t_i$ as an element of $T$ and the subscripted $i$ is used to distinguish the elements. Henceforth, two definitions are illustrated below.}
 
-\textcolor{red}{\textbf{Definition 1} If $ S \subseteq M$ and $(\forall s_{i} \in S) \in \{0, 1\} $. Meanwhile, each element $s_i$ has four operators: $\mathcal{S}_0(s_i)$ denotes that $0$ is assigned to $s_i$, $\mathcal{S}_1(s_i)$ denotes that $1$ is assigned to $s_i$, $\mathcal{J}_0(s_i)$ represents that the value of $s_i$ is $0$, $\mathcal{J}_1(s_i)$ represents that the value of $s_i$ is $1$. Then we define the set $S$ has $\mathcal{B}$ attribute.}
+\textcolor{red}{\textbf{Definition 1} If $ T \subseteq M$, the value saved in $t_{i} \in \{0, 1\} $ and each element $t_i$ has four operators: $\mathcal{S}_0(t_i)$ denotes that $t_i$ is set to zero, $\mathcal{S}_1(t_i)$ denotes that $t_i$ is set to one, $\mathcal{J}_0(t_i)$ represents that the value of $t_i$ is judged as $0$, $\mathcal{J}_1(t_i)$ represents that the value of $t_i$ is judged as $1$. Then we define the set $T$ has $\mathcal{B}$ attribute.}
 
-\textcolor{red}{\textbf{Definition 2} If $ S \subseteq D$ and $\forall s_{i} \in S$ has 4 bytes. We define the set $S$ has $\mathcal{D}$ attribute.}
-
-
-
+\textcolor{red}{\textbf{Definition 2} If $ T \subseteq D$ and $\forall t_{i} \in T$ has 4 bytes. We define the set $T$ has $\mathcal{D}$ attribute.}
 
 
 Fig. \ref{fig:Memory} shows the memory allocation of master and slave processors. All slave processors have the same storage structure.
@@ -638,12 +635,11 @@ Fig. \ref{fig:Memory} shows the memory allocation of master and slave processors
 
 \textbf{\emph{LCD}} (Logic Control Data Area): these data will be used to delivery to algorithm. It has $\mathcal{D}$ attribute.
 
-\textbf{\emph{AF}} (Algorithm Flag Area): it includes algorithm flag of execution ($AFE$) and algorithm flag of state ($AFS$).
-Both of them have $\mathcal{B}$ attribute.
+\textbf{\emph{AF}} (Algorithm Flag Area): it includes algorithm flag of execution ($AFE$) and algorithm flag of state ($AFS$). Both of them have $\mathcal{B}$ attribute.
 
 \textbf{\emph{AD}} (Algorithm Data Area): these data help specified algorithm executing. It has $\mathcal{D}$ attribute.
 
-\textbf{\emph{MF}} (Message Flag Area): it includes defined message flag ($DMF$) and user customized message flag ($UMF$). $DMF$ is the neccesary message for system execution including start module flag, alarm flag, etc. $UMF$ could be defined by users. Both of them have $\mathcal{B}$ attribute.
+\textbf{\emph{MF}} (Message Flag Area): it includes defined message flag ($DMF$) and user customized message flag ($UMF$). $DMF$ is the necessary message for system execution, e.g. start module flag, alarm flag, etc. $UMF$ could be defined by users. Both of them have $\mathcal{B}$ attribute.
 
 \textbf{\emph{MD}} (Message Data Area): it is used to transfer message information which includes system message data area ($DMD$) and usr message data area ($UMD$). It is defined in $D$ area.
 
@@ -656,15 +652,14 @@ Both of them have $\mathcal{B}$ attribute.
 \textbf{\emph{SMD}} (Slave Processor Data Interaction Data Area): an area stores the data delivered from master processor and it has $\mathcal{D}$ attribute.
 
 \subsection{User-oriented Thread Design}
-From the user's point of view, in most cases, the logic control program ($LCP$) and algorithm program ($AP$) could be developed dividually \cite{WuA}, hence we have logic thread and algorithm thread. On the other hand, in order to satisfying ever-growing performance requirement of users, we proposed the customized multi-processor ePLC. Correspondingly 
-an individual motion thread is designed into every slave processor. The user-oriented thread structure can be seen in Fig \ref{fig:Threads}. Every processor is a four level preemptive scheduling thread structure. \textbf{Emergent Thread}, \textbf{Communication Thread}, \textbf{Diagnose Thread} and \textbf{APC Thread} see in \cite{WuA}. Two special threads are explained below.
+From the user's point of view, in most cases, the logic control program ($LCP$) and algorithm program ($AP$) could be developed independently \cite{WuA}, hence we have logic thread and algorithm thread. On the other hand, in order to satisfying ever-growing performance requirement of users, we proposed the customized multi-processor $ePLC$. Correspondingly an individual motion thread is designed into every slave processor. The user-oriented thread structure can be seen in Fig \ref{fig:Threads}. Every processor is a four level preemptive scheduling thread structure. \textbf{Emergent Thread}, \textbf{Communication Thread}, \textbf{Diagnose Thread} and \textbf{APC Thread} see in \cite{WuA}. Two special threads are explained below.
 
 \textbf{Control Thread}: it is running in master processor and has functions including dealing with DI$\backslash$O, executing logic program, exchanging data with slave processors, etc.
 
 \textbf{Algorithm Thread}: it is running in slave processor and contains functions including interacting data with master, executing algorithm program, controlling actuators, etc.
 
 \subsection{Modular Design}  
-In applications, modular design will reduce the complexity of program. Therefore, we provide a system level frame for modular design. In Fig. \ref{fig:SoftwareStructure}, we can have a look on the modular design. The program is composed by a lot of modules and a module consists of logic program and several related algorithms. Modules will work under the reasonable memory allocation, data interaction mechanism and  running multithreading. Hence, we could define a program of ePLC as follows.
+\textcolor{red}{In applications, modular design will reduce the complexity of program \cite{Vyatkin2013Software}.} Therefore, we provide a system level frame for modular design. In Fig. \ref{fig:SoftwareStructure}, we can have a look on the modular design. The program is composed by a lot of modules and a module consists of logic program and several related algorithms. Modules will work under the reasonable memory allocation, data interaction mechanism and running multithreading. Hence, we could define a program of $ePLC$ as follows.
 
 \begin{equation}
 	\left\{
@@ -677,7 +672,7 @@ In applications, modular design will reduce the complexity of program. Therefore
 	\right.
 	\end{equation}
 
-\textcolor{blue}{The programming structure ($PS$) consists of modules ($MS$), memory allocation ($MA$), $LPM$ data interaction and threads ($TD$). Each $ms_i$ has two parts: logic control program $lcp_i$ and several algorithm programs ($ap_g, ap_{g+1},..., ap_{j},..., ap_{h}$). Each $lcp_i$ includes initial program ($ip_i$), logic control flag ($lcf_i$), logic control data ($lcd_i$) and logic program body ($lpb_i$). Each $ap_{j}$ contains $afe_{j}$, $afs_{j}$, $ad_{j}$ and algorithm body ($ab_{j}$).}
+The programming structure ($PS$) consists of modules ($MS$), memory allocation ($MA$), $LPM$ data interaction and threads ($TD$). Each $ms_i$ has two parts: logic control program $lcp_i$ and several algorithm programs ($ap_g, ap_{g+1},..., ap_{j},..., ap_{h}$). Each $lcp_i$ includes initial program ($ip_i$), logic control flag ($lcf_i$), logic control data ($lcd_i$) and logic program body ($lpb_i$). Each $ap_{j}$ contains $afe_{j}$, $afs_{j}$, $ad_{j}$ and algorithm body ($ab_{j}$).
 
 \begin{figure}
 	\centering
@@ -690,7 +685,7 @@ In applications, modular design will reduce the complexity of program. Therefore
  \subsection{Compilation of the graphic program}
 The compilation contains two parts: compiling graphic language into instruction list and compiling the multi-language components.
  	
-  \textcolor{blue}{In the first part, since we see the multi-language components as an common component, the compilation of graphic language embedded multi-language components is almost the same with the process of \cite{Yan2010Compiling} in which you can find the detailed explanation. As an example shown in Fig. \ref{fig:Compile}, we adopt three steps to implement it:}
+  In the first part, since we see the multi-language components as an common component, the compilation of graphic language embedded multi-language components is almost the same with the process of \cite{Yan2010Compiling} in which you can find the detailed explanation. As an example shown in Fig. \ref{fig:Compile}, we adopt three steps to implement it:
  	
  \textbf{Step 1}: convert topology structure to directed graph according to ladder diagram syntax library and analyze the errors of the topology.
  	
@@ -701,18 +696,18 @@ The compilation contains two parts: compiling graphic language into instruction 
  \begin{figure}
  	\centering
  	\includegraphics[width=3in]{fig/Compile.pdf}
- 	\caption{\textcolor{blue}{Three steps of compilation of graphic program which contains multi-language component: convert topology structure to directed graph, generating a binary decomposition tree and generating IL instructions.}}
+ 	\caption{Three steps of compilation of graphic program which contains multi-language component: convert topology structure to directed graph, generating a binary decomposition tree and generating IL instructions.}
  	\label{fig:Compile}
  \end{figure}
  
- \textcolor{blue}{In the second part, the multi-language components will be compiled. For the convenience of users, they can still use the same grammar to program the ePLC dedicated storage area inside the multi-language component, such as $M2000=1$ which represents to give $1$ to the bit area $M2000$,} whereas it is illegal in other languages. Hence, we should compile the component to the identifiable code which contains two steps.
+ In the second part, the multi-language components will be compiled. For the convenience of users, they can still use the same grammar to program the $ePLC$ dedicated storage area inside the multi-language component, such as $M2000=1$ which represents to give $1$ to the bit area $M2000$, whereas it is illegal in other languages. Hence, we should compile the component to the identifiable code which contains two steps.
  	
-\textbf{Step 1}: address mapping. Every type of processor has its own $AMR$ (Address Mapping Rules).
+\textbf{Step 1}: address mapping. Every type of processor has its own address mapping rules ($AMR$).
  \begin{eqnarray}
   APR = \{CID, MAS, DAS, \mathcal{A}_m, \mathcal{A}_d\}
  \end{eqnarray}
- Where $CID$ is the compiler identity, $MAS$ and $DAS$ are the start address of $M$ and $D$ area, respectively. $\mathcal{A}_m$ and $\mathcal{A}_d$ are the rules to map the $M$ and $D$ to the address of processor, respectively, seen Algorithm \ref{alg1} and Algorithm \ref{alg2}. \textcolor{blue}{Algorithm \ref{alg1} translates the four operator of each element $m_i$ of $M$, which are $\mathcal{S}_0(m_i)$, $\mathcal{S}_1(m_i)$, $\mathcal{J}_0(m_i)$, $\mathcal{J}_1(m_i)$, to recognizable form of compiler $CID$. In addition, in PLC platform, we adopt octal so it is necessary to translate the octal number to decimal number. Algorithm \ref{alg1} and Algorithm \ref{alg2} both contain this process.
- } 
+ Where $CID$ is the compiler identity, $MAS$ and $DAS$ are the start address of $M$ and $D$ area, respectively. $\mathcal{A}_m$ and $\mathcal{A}_d$ are the rules to map the $M$ and $D$ to the address of processor, respectively, \textcolor{red}{see Algorithm \ref{alg1} and Algorithm \ref{alg2}. Algorithm \ref{alg1} translates the four operators of each element $m_i$, which are $\mathcal{S}_0(m_i)$, $\mathcal{S}_1(m_i)$, $\mathcal{J}_0(m_i)$, $\mathcal{J}_1(m_i)$, to recognizable form of $CID$ compiler. In addition, in $PLC$ platform, we adopt the octal system so it is necessary to translate the octal number to decimal number. Algorithm \ref{alg1} and Algorithm \ref{alg2} both contain this process.
+ }
  
 \textbf{Step 2}: call the corresponding compiler to compile the component.
 
@@ -728,7 +723,7 @@ The compilation contains two parts: compiling graphic language into instruction 
 	remainder r = $i\%10$\;
 	Octal oI =  $i/10$\;
 	Convert oI to decimal dI\; 
-	\textcolor{blue}{\For{opt}{
+	\For{opt}{
 		\If{opt==$\mathcal{S}_0$}{
 			cStr = "CassMen[$MAS$+dI] $\gg$ r == 0"\;
 		}
@@ -741,7 +736,7 @@ The compilation contains two parts: compiling graphic language into instruction 
        \If{opt==$\mathcal{J}_1$}{
            cStr = "CassMen[$MAS$+dI] \& (1 $\ll$ r)"\;
        }	  	    
-	}}
+	}
 \end{algorithm}
 \begin{algorithm}
 	\label{alg2}
@@ -757,9 +752,9 @@ The compilation contains two parts: compiling graphic language into instruction 
 
  
  \subsection{LPM data interaction}
- As shown in Fig. \ref{fig:Interaction}, we define the LPM data interaction with three parts: $\mathcal{L}$ (layer data interaction), $\mathcal{P}$ (processor data interaction) and $\mathcal{M}$ (module data interaction). $\mathcal{L}$ seen in \cite{WuA} is the process to exchange the data between application customized layer and control layer.
+ As shown in Fig. \ref{fig:Interaction}, we define the $LPM$ data interaction with three parts: $\mathcal{L}$ (layer data interaction), $\mathcal{P}$ (processor data interaction) and $\mathcal{M}$ (module data interaction). $\mathcal{L}$ seen in \cite{WuA} is the process to exchange the data between application customized layer and control layer.
 
-$\mathcal{P}$ is used to interact data between master processor and slave processors, hence it has transferring data from master to slave ($\mathcal{P}_{mts}$) and transferring data from slave to master ($\mathcal{P}_{stm}$) and it is defined below:
+$\mathcal{P}$ is used to interact data between master processor and slave processors, hence it has the process of transferring data from master to slave ($\mathcal{P}_{mts}$) and the process of transferring data from slave to master ($\mathcal{P}_{stm}$) which are defined below:
  \begin{equation}
  \left\{
  \begin{array}{l}
@@ -768,14 +763,14 @@ $\mathcal{P}$ is used to interact data between master processor and slave proces
  \end{array}
  \right.
  \end{equation}
-\textcolor{blue}{Where $\mathcal{U}$ is the function to implement the process of data interaction between master and slave processors. $\mathcal{P}_{mts}$ and $\mathcal{P}_{mts}$ use the same function $\mathcal{U}$.}
+Where $\mathcal{U}$ is the function to implement the process of data interaction between master and slave processors. $\mathcal{P}_{mts}$ and $\mathcal{P}_{mts}$ use the same function $\mathcal{U}$.
 
-\textcolor{blue}{The process of $\mathcal{P}_{mts}$ is seen below:
- $\mathcal{S}_1(msb_i)\to\mathcal{S}_1(msf_i)\to send(smd_i)\to\mathcal{S}_0(msb_i)\to\mathcal{S}_1(sms_i)\to check(smd_i)\to\mathcal{S}_1(sma_i)\to\mathcal{S}_0(sms_i)\to\mathcal{S}_0(sma_i)\to\mathcal{S}_0(msf_i)$.}
+ The process flow of $\mathcal{P}_{mts}$ is denoted below:
+ $\mathcal{S}_1(msb_i)\to\mathcal{S}_1(msf_i)\to send(smd_i)\to\mathcal{S}_0(msb_i)\to\mathcal{S}_1(sms_i)\to check(smd_i)\to\mathcal{S}_1(sma_i)\to\mathcal{S}_0(sms_i)\to\mathcal{S}_0(sma_i)\to\mathcal{S}_0(msf_i)$.
  
-Where $send(msd_i)$ means sending data to $msd_i$ in slave processor. $check(msd_i)$ means to check data of $msd_i$.
+\textcolor{red}{Here $send(msd_i)$ denotes sending data to $msd_i$ in slave processor. $check(msd_i)$ denotes to check data of $msd_i$. $\to$ denotes the transition to the next step, e.g. $\mathcal{S}_1(msb_i)\to\mathcal{S}_1(msf_i)$ denotes $msb_i$ is set one and then $msf_i$ is set one.}
  
-$\mathcal{M}$ is used to interact data among modules. It includes two types message: system defined message interaction $\mathcal{M}_{d}$ and user message interaction $\mathcal{M}_{u}$. The process is defined below:
+$\mathcal{M}$ is used to interact data among modules. It includes two type messages: system defined message interaction $\mathcal{M}_{d}$ and user message interaction $\mathcal{M}_{u}$. The process is defined below:
  \begin{equation}
 \left\{
 \begin{array}{l}
@@ -784,26 +779,26 @@ $\mathcal{M}$ is used to interact data among modules. It includes two types mess
 \end{array}
 \right.
 \end{equation}
-\textcolor{blue}{Where $\mathcal{V}$ is the function to broadcast message and transfer data. $\mathcal{E}$ is the collection of all execution functions after getting related message, $\mathcal{M}_{s}$ and $\mathcal{M}_{u}$ have the same function $\mathcal{V}$.}
+Where $\mathcal{V}$ is the function to broadcast message and transfer data. $\mathcal{E}$ is the collection of all execution functions after getting related message, $\mathcal{M}_{s}$ and $\mathcal{M}_{u}$ have the same function $\mathcal{V}$.
 
 One module receives a system defined message shown below:
 $\mathcal{J}_1(smf_i)\to GetMessage_{j}(dmf_i)\to GetData(dmd_i)\to\mathcal{E}_j$.
 
- Where $GetMessage_{j}(dmf_i)$ represents the $i$th module getting a message $dmf_i$ and $GetData(dmd_i)$ represents the $i$th module getting the message information.
+ Here $GetMessage_{j}(dmf_i)$ represents the $i$th module getting a message $dmf_i$ and $GetData(dmd_i)$ represents the $i$th module getting the message information.
 
  \begin{figure}
 	\centering
 	\includegraphics[width=3in]{fig/Interaction.pdf}
-	\caption{ \textcolor{blue}{LPM data interaction is defined with three parts: $\mathcal{L}$ (layer data interaction), $\mathcal{P}$ (processor data interaction) and $\mathcal{M}$ (module data interaction).}}
+	\caption{ $LPM$ data interaction is defined with three parts: $\mathcal{L}$ (layer data interaction), $\mathcal{P}$ (processor data interaction) and $\mathcal{M}$ (module data interaction).}
 	\label{fig:Interaction}
 \end{figure}
 
  \subsection{Execution of Threads}
  Commonly, threads in master processor and in slave processors execute separately according to their priority and the interaction between control thread and algorithm threads occurs when using $\mathcal{P}_{mts}$ and $\mathcal{P}_{mts}$. Basic execution units of control thread are shown as follows:
  
- \textbf{$C_{1}$}: start the module.
+ \textbf{$C_{1}$}: start a module.
  
- \textbf{$C_{2}$}: transfer data to motion thread by $\mathcal{P}_{mts}$.
+ \textbf{$C_{2}$}: transfer data to slave processor by $\mathcal{P}_{mts}$.
  
  \textbf{$C_{3}$}: deal with the feedback data.
  
@@ -817,15 +812,15 @@ $\mathcal{J}_1(smf_i)\to GetMessage_{j}(dmf_i)\to GetData(dmd_i)\to\mathcal{E}_j
  
  \textbf{$M_{2}$}: execute the algorithm.
  
- \textbf{$M_{3}$}: feedback the data to control thread by $\mathcal{P}_{stm}$.
+ \textbf{$M_{3}$}: feedback the data to master processor by $\mathcal{P}_{stm}$.
  
  \textbf{$M_{4}$}: end algorithm.
   
   Two cases shown in Fig. \ref{fig:threadFlow} are explained below:
   
-  \textbf{Case one}: the execution of control thread and two algorithm threads among three processors. The $CT$ (Control Thread) traverses $LCF$, finds $ms_i$ to be executed , runs $lcp_i$, finds $ap_j$, executes $C_1$ unit, executes $C_2$ unit and then transfers data from $LCD$ to $SMD$ of processor 1. $AT$ (Algorithm Thread) 1 executes $M_1$ unit, executes $M_2$ after transferring data from $SMD$ to $AD$, runs $M_3$ unit, feedbacks data to $CT$. When the $ap_j$ finishes, $AT$ 1 executes $M_4$ and informs $CT$ the end of $ap_j$. $CT$ executes $C_3$ to end the process and then finds $ap_{j+1}$, executes $C_1$ and $C_2$, transfers the data from $LCD$ to $SMD$ of processor 2, $AT$ 2 executes $M_1$ unit, executes $M_2$ after transferring data from $SMD$ to $AD$. When the $ap_{j+1}$ finishes, $AT$ 2 executes $M_4$ unit and informs $CT$ the end of $ap_{j+1}$. $CT$ executes $C_3$ to finish the process.
+  \textbf{Case one}: the execution of control thread and two algorithm threads among three processors. The control thread ($CT$) traverses $LCF$, finds $ms_i$ to be executed , runs $lcp_i$, finds $ap_j$, executes $C_1$ unit, executes $C_2$ unit and then transfers data from $LCD$ to $SMD$ of processor 1. Algorithm thread ($AT$) 1 executes $M_1$ unit, executes $M_2$ after transferring data from $SMD$ to $AD$, runs $M_3$ unit, feedbacks data to $CT$. When the $ap_j$ finishes, $AT$ 1 executes $M_4$ and informs $CT$ the end of $ap_j$. $CT$ executes $C_3$ to end the process and then finds $ap_{j+1}$, executes $C_1$ and $C_2$, transfers the data from $LCD$ to $SMD$ of processor 2, $AT$ 2 executes $M_1$ unit, executes $M_2$ after transferring data from $SMD$ to $AD$. When the $ap_{j+1}$ finishes, $AT$ 2 executes $M_4$ unit and informs $CT$ the end of $ap_{j+1}$. $CT$ executes $C_3$ to finish the process.
   
-  \textbf{Case two}: the execution of control thread and two algorithm threads among three processors together with message mechanism. The $CT$ traverses $LCF$, finds $ms_i$ to be executed , runs $lcp_i$, finds $ap_j$, executes $C_1$ unit, executes $C_2$ unit and then transfers data from $LCD$ to $SMD$ of processor 1. $AT$ 1 executes $M_1$ unit, executes $M_2$ after transferring data from $SMD$ to $AD$. During the execution of $ms_i$, $CT$ executes $C_4$ to broadcast the message $dmf_x$ to inform $ms_{j}$ to run. After executing of $C_5$, $ms_{j}$ gets data and start, then $CT$ finds $ap_{j+1}$ in $ms_{j}$, executes $C_1$ and $C_2$, transfers the data from $LCD$ to $SMD$ of processor 2, $AT$ 2 executes $M_1$ unit, executes $M_2$ after transferring data from $SMD$ to $AD$. During the execution of $ap_{j+1}$, $AT$ 1 executes $M_4$ and informs $CT$ to execute $C_3$. After that, $ap_{j+1}$ finishes, then $CT$ executes $C_3$ to finish the process.
+  \textbf{Case two}: the execution of control thread and two algorithm threads among three processors together with message mechanism. The $CT$ traverses $LCF$, finds $ms_i$ to be executed , runs $lcp_i$, finds $ap_j$, executes $C_1$ unit, executes $C_2$ unit and then transfers data from $LCD$ to $SMD$ of processor 1. $AT$ 1 executes $M_1$ unit, executes $M_2$ after transferring data from $SMD$ to $AD$. During the execution of $ms_i$, $CT$ executes $C_4$ to broadcast the message $dmf_x$ to inform $ms_{k}$ to run. After executing of $C_5$, $ms_{k}$ gets data and start, then $CT$ finds $ap_{j+1}$ in $ms_{k}$, executes $C_1$ and $C_2$, transfers the data from $LCD$ to $SMD$ of processor 2, $AT$ 2 executes $M_1$ unit, executes $M_2$ after transferring data from $SMD$ to $AD$. During the execution of $ap_{j+1}$, $AT$ 1 executes $M_4$ and informs $CT$ to execute $C_3$. After that, $ap_{j+1}$ finishes, then $CT$ executes $C_3$ to finish the process.
   
 
   
@@ -836,81 +831,99 @@ $\mathcal{J}_1(smf_i)\to GetMessage_{j}(dmf_i)\to GetData(dmd_i)\to\mathcal{E}_j
   	\label{fig:threadFlow}
   \end{figure}
  \subsection{Finite State Machines}
- \textcolor{blue}{ The finite state machines adopt the 5-tuple which is similar with \cite{Hierons2016Parallel}:
+ \textcolor{red}{ The finite state machines adopt the 5-tuple which is similar with \cite{Hierons2016Parallel}:
  \begin{equation}
  \mathcal{F} = (Q, X, Y, \delta, \lambda)
  \end{equation}
- Where $Q = \{q_0, q_1,..., q_i\}$ is the collection of states, $q_0 \in Q$ is the initial state and $q_f$ is the final state. $X$ is the finite set of inputs. $Y$ is the finite set of outputs. $\delta$ is the state transition function $\delta: Q\times X \rightarrow Q$. $\lambda$ is the output function $\lambda: Q\times X\rightarrow Y$. If $F$ is in state $q$ and $x$ is occurred, then the $F$ transits to state $q' = \delta(q, x)$ and output $y = \lambda(q, x)$.}
+ Where $Q = \{q_0, q_1,..., q_i\}$ is the collection of states, $q_0 \in Q$ is the initial state. $X$ is the finite set of inputs. $Y$ is the finite set of outputs. $\delta$ is the state transition function $\delta: Q\times X \rightarrow Q$. $\lambda$ is the output function $\lambda: Q\times X\rightarrow Y$. If $F$ is in state $q$ and $x$ is occurred, then the $F$ transits to state $q' = \delta(q, x)$ and outputs $y = \lambda(q, x)$. This transition could be denoted $\tau = (s,x/o,s')$.}
  
- \textcolor{blue}{Hence, we have the following finite state machines of master processor:
+ \textcolor{red}{Hence, we have the following finite state machines of master processor:
   \begin{equation}
+  \label{FMaster}
  \left\{
  \begin{array}{l}
- \mathcal{F}_{m} = \{Q_m, \Sigma_m, \delta_m\}\\
- Q_m = \{mstop, mrun, pdi\}\\
- \Sigma_m = \{\sigma_{m1}, \sigma_{m2}, \sigma_{m3}, \sigma_{m4}\}\\
+ \mathcal{F}_{m} = \{Q_m, X_m, Y_m,\delta_m, \lambda_m\}\\
+ Q_m = \{mstop, mrun, mbm, pdi\}\\
+ X_m = \{x_{m1}, x_{m2}, x_{m3}, x_{m4}, x_{m5}, x_{m6}, x_{m7}\}\\
+ Y_m = \{y_{m1}, y_{m2}, y_{m3}\}
  \end{array}
  \right.
  \end{equation}
- Here, $mstop$ is the stop state and the initial state of master processor, $mrun$ is the run state and $pdi$ is the data interaction state. The inputs are defined below.
+ Where, $mstop$ is the stop state and the initial state of master processor, $mrun$ is the run state, $mbm$ is the broadcast state and $pdi$ is the data interaction state. The inputs are defined below:
  \begin{align}
- \notag x_{m1}&: \exists lcf_i \in LCF = 1\\
-\notag x_{m2}&: \forall lcf_i \in LCF = 0\\
-\notag x_{m3}&: \exists msf_i \in MSF = 1\quad or \quad \exists mss_i \in MSS = 1\\
-\notag x_{m4}&: \forall msf_i \in MSF = 0\quad and \quad \forall mss_i \in MSS = 0
+ \notag x_{m1}&\Leftrightarrow \exists lcf_i: \mathcal{J}_1(lcf_i)\\
+\notag x_{m2}&\Leftrightarrow  \forall lcf_i: \mathcal{J}_0(lcf_i)\\
+\notag x_{m3}&\Leftrightarrow \exists mf_i: \mathcal{J}_1(mf_i)\\
+\notag x_{m4}&\Leftrightarrow \forall mf_i: \mathcal{J}_0(mf_i)\\
+\notag x_{m5}&\Leftrightarrow \exists msf_i, mss_j: \mathcal{J}_1(msf_i) \lor \mathcal{J}_1(mss_j)\\
+\notag x_{m6}&\Leftrightarrow \forall msf_i, mss_j, mf_k: \mathcal{J}_0(msf_i) \land \mathcal{J}_0(mss_j) \land \mathcal{J}_0(mf_k)\\
+\notag x_{m7}&\Leftrightarrow \forall msf_i, mss_j, \exists mf_k: \mathcal{J}_0(msf_i) \land \mathcal{J}_0(mss_j) \land \mathcal{J}_1(mf_k)\\
+\notag y_{m1}&\Leftrightarrow C_1\\
+\notag y_{m2}&\Leftrightarrow C_4\\
+\notag y_{m3}&\Leftrightarrow C_2\quad or\quad C_3
  \end{align}}
+\textcolor{red}{Here, e.g. $x_{m1}\Leftrightarrow \exists lcf_i: \mathcal{J}_1(lcf_i)$ denotes that $x_{m1}$ is an input of the $X_m$ and this input equivalent to the existence of an logic control flag, $lcf_i$ whose value is 1.}
 
-\textcolor{blue}{Then we can get the state transitions of master processor:
+\textcolor{red}{Then we can get the state transitions of master processor:
   \begin{equation}
  \left\{
  \begin{array}{l}
- mrun = \delta_m (mstop, \sigma_{m1})\\
-mstop = \delta_m (mrun, \sigma_{m2})\\
-pdi = \delta_m (mrun, \sigma_{m3})\\
-mrun = \delta_m (pdi, \sigma_{m4})
+ \tau_m1 = (mstop, x_{m1}/y_{m1}, mrun)\\
+ \tau_m2 = (mrun, x_{m2}, mstop)\\
+ \tau_m3 = (mrun, x_{m3}/y_{m2}, mbm)\\
+ \tau_m4 = (mbm, x_{m4}, mrun)\\
+ \tau_m5 = (mrun, x_{m5}/y_{m3}, pdi)\\
+ \tau_m6 = (pdi, x_{m6}, mrun)\\
+ \tau_m7 = (mbm, x_{m5}/y_{m3}, pdi)\\
+ \tau_m8 = (pdi, x_{m7}, mbm)\\
  \end{array}
  \right.
  \end{equation}}
  
  
- \textcolor{blue}{The finite state machines of every slave processor are illustrated below:
+ \textcolor{red}{The finite state machines of every slave processor are illustrated below:
  \begin{equation}
+ \label{FSlave}
  \left\{
  \begin{array}{l}
- \mathcal{F}_{s} = \{Q_s, \Sigma_s, \delta_s\}\\
+ \mathcal{F}_{s} = \{Q_s, X_s, Y_s, \delta_s, \lambda_s\}\\
  Q_s = \{sstop, sready, srun, pdi\}\\
- \Sigma_s = \{\sigma_{s1}, \sigma_{s2}, \sigma_{s3}, \sigma_{s4}, \sigma_{s5}\}\\
+ X_s = \{x_{s1}, x_{s2}, x_{s3}, x_{s4}, x_{s5}\}\\
+ Y_s = \{y_{s1}, y_{s2}, y_{s3}\}\\
  \end{array}
  \right.
  \end{equation}
- where $sstop$ is the stop state, $srun$ is the run state, $sready$ is the ready state and $pdi$ is the data interaction state. The events are defined below.
+ where $sstop$ is the stop state and the initial state, $srun$ is the run state, $sready$ is the ready state and $pdi$ is the data interaction state. The events are defined below:
 \begin{align}
-\notag\sigma_{s1}&: \exists sms_i \in SMS = 1\\
-\notag\sigma_{s2}&: \exists afe_i \in AFE = 1\\
-\notag\sigma_{s3}&: \exists afs_i \in AFS = 1\\
-\notag\sigma_{s4}&: \forall afs_i \in AFS = 0\\
-\notag\sigma_{s5}&: \exists smb_i \in MSB = 1\quad or \quad \exists sms_i \in SMS = 1
+\notag x_{s1}&\Leftrightarrow \exists sms_i: \mathcal{J}_1(sms_i)\\
+\notag x_{s2}&\Leftrightarrow \exists afe_i: \mathcal{J}_1(afe_i)\\
+\notag x_{s3}&\Leftrightarrow \exists afs_i: \mathcal{J}_1(afs_i)\\
+\notag x_{s4}&\Leftrightarrow \forall afs_i: \mathcal{J}_0(afs_i)\\
+\notag x_{s5}&\Leftrightarrow \exists smb_i, sms_j: \mathcal{J}_1(smb_i) \lor \mathcal{J}_1(sms_j)\\
+\notag y_{s1}&\Leftrightarrow M_1\\
+\notag y_{s2}&\Leftrightarrow M_2\\
+\notag y_{s3}&\Leftrightarrow M_3
 \end{align}}
 
  
- \textcolor{blue}{Then we can get the state transitions of slave processor:
+ \textcolor{red}{Then we can get the state transitions of slave processor:
  \begin{equation}
  \left\{
  \begin{array}{l}
- pdi = \delta_s (sstop, \sigma_{m1})\\
- sready = \delta_s (pdi, \sigma_{m2})\\
- srun = \delta_s (sready, \sigma_{m3})\\
- sstop = \delta_s (srun, \sigma_{m4})\\
- pdi =  \delta_s (srun, \sigma_{m5})
+ \tau_{s1} = (sstop, x_{s1}/y_{s1}, pdi)\\
+ \tau_{s2} = (pdi, x_{s2}, sready)\\
+ \tau_{s3} = (sready, x_{s3}/y_{s2}, srun)\\
+ \tau_{s4} = (srun, x_{s4}, sstop)\\
+ \tau_{s5} = (srun, x_{s5}/y_{s3}, pdi)
  \end{array}
  \right.
  \end{equation}}
 
-\textcolor{blue}{Fig. \ref{fig:state} illustrates the whole finite state machines of ePLC which contains master processor $M$, slave processor $S_1$ and slave processor $S_i$.}
+\textcolor{red}{Fig. \ref{fig:state} illustrates the whole finite state machines of $ePLC$ which contains master processor $M$, slave processor $S_1$ and slave processor $S_i$. This is the figure form of Eq. \ref{FMaster} and Eq. \ref{FSlave}. }
  \begin{figure}
 	\centering
 	\includegraphics[width=3in]{fig/state.pdf}
-	\caption{ Finite state machines of ePlC which contains master processor $M$, slave processor $S_1$ and slave processor $S_i$.}
+	\caption{ Finite state machines of $ePlC$ which contains master processor $M$, slave processor $S_1$ and slave processor $S_i$.}
 	\label{fig:state}
 \end{figure}
 \section{Experiment}
@@ -919,12 +932,12 @@ mrun = \delta_m (pdi, \sigma_{m4})
 \begin{figure}
 	\centering
 	\includegraphics[width=3in]{fig/FIG10.pdf}
-	\caption{200 t injection molding machine and its control distributed system.}
+	\caption{200 ton injection molding machine and its control distributed system.}
 	\label{fig:IMM}
 \end{figure}
 
 \subsection{Distributed Control System}
-As show in Fig. \ref{fig:IMM}, we verify the proposal development method on a 200 t IMM. The TI F28M35 chip is chosen as the main chip of ePLC. It has two cores: a TI C28x and an ARM Cortex M3. Considering the DSP is more suitable for motion control, Cortex M3 is chosen as master processor and C28x is chosen as slave processor. The ePLC has a RJ45, a RS232 and a CAN. RJ45 is used to download program, RS232 is for connecting with HMI and CAN is designed to extend the DI$\backslash$O and AI$\backslash$O. The HMI could be customized by users.
+As show in Fig. \ref{fig:IMM}, we verify the proposal development method on a 200 ton $IMM$. The TI F28M35 chip is chosen as the main chip of $ePLC$. It has two cores: a TI C28x and an ARM Cortex M3. Considering the DSP is more suitable for motion control, Cortex M3 is chosen as master processor and C28x is chosen as slave processor. The $ePLC$ has a RJ45, a RS232 and a CAN. RJ45 is used to download program, RS232 is for connecting with HMI and CAN is designed to extend the DI$\backslash$O and AI$\backslash$O. The $HMI$ could be customized by users.
 
 \subsection{Software Structure}
 Fig. \ref{fig:ld} shows uniform development platform developed by ourselves. In the dotted line box of Fig. \ref{fig:ld} (a), it is the C language component and Fig. \ref{fig:ld} (b) is its partial code. This component represents to output a small velocity and pressure in setup mode.
@@ -934,7 +947,7 @@ After the design of every used components, we design the modules according to Ta
 \begin{figure}
 	\centering
 	\includegraphics[width=3.5in]{fig/ld.pdf}
-	\caption{\textcolor{blue}{(a) is the uniform development platform. In the dotted line box, it is the C language component and (b) is its partial code. This component represents to output a small velocity and pressure in setup mode.}}
+	\caption{(a) is the uniform development platform. In the dotted line box, it is the C language component and (b) is its partial code. This component represents to output a small velocity and pressure in setup mode.}
 	\label{fig:ld}
 \end{figure}
 
@@ -948,8 +961,8 @@ Three typical requirements using the proposed user-oriented development method a
 We compared the system information, development method and key performance among the Techmation system, the KEBA system and the proposed system.
 
 \begin{enumerate}
-	\item System information. TECHMATION and KEBA system account for the main market. Due to the reduced complexity, our system can have customized PLC and separated HMI. To some extend, it extremely decrease the cost. Our system adopts the widely used distributed structure which decrease wire usage and increase immunity to interference.
-	\item Development method. Our system adopted a usr-oriented development method, including customized multiprocessor ePLC, component based uniform development platform and comprehensive optimization of the system. Other systems are hard to do these and can not support C language component. Specially, Techmation system is developed by assembly instruction and even do not support IEC61131-3.
+	\item System information. TECHMATION and KEBA system account for the main market. Due to the reduced complexity, our system can have customized $PLC$ and separated $HMI$. To some extend, it extremely decrease the cost. Our system adopts the widely used distributed structure which decrease wire usage and increase immunity to interference.
+	\item Development method. Our system adopted a usr-oriented development method, including customized multiprocessor $ePLC$, component based uniform development platform and comprehensive optimization of the system. Other systems are hard to do these and can not support C language component. Specially, Techmation system is developed by assembly instruction and even do not support IEC61131-3.
 	\item Key performance. To our best knowledge, we adopted defective percentage ($DP$), error of change-over position ($EoCP$), error of cushion minimum ($EoCM$), error of charging end position ($EoCEP$) and error of mold open end position ($EoMOEP$) as the key performance. All the systems were adjusted to use T-curve and the key parameters were set the same value. The cycle time, mold close time, mold open time, injection time, charging time and cooling time, ejector forward time and ejector backward time were controlled at about 8 s, 2 s, 2 s, 1 s, 1 s, 1 s, 0.5 s, 0.5 s respectively. Fig. \ref{fig:Compare} shows the 100 times error line graph of the key performance. The proposed system has almost identical performance with KEBA system which is better than TECHMATION system. Talbe \ref{table:IMMSystem} are the comparison of startup time ($ST$), $DP$ and the mean of the key performance. Our system startup time has been increased by more than 20 times in the case of almost identical key performance.
 \end{enumerate}
 \begin{table}
@@ -976,12 +989,12 @@ We compared the system information, development method and key performance among
 \begin{figure}
 	\centering
 	\includegraphics[width=3in]{fig/Compare.pdf}
-	\caption{\textcolor{blue}{(a) is EoCP, (b) is EoCP, (c) is EoCM, (d) is EoMOEP.}}
+	\caption{(a) is EoCP, (b) is EoCP, (c) is EoCM, (d) is EoMOEP.}
 	\label{fig:Compare}
 \end{figure}
 \section{Conclusion}
 \label{conclusion}
-This paper presents a user-oriented development method. We pose the customized mulitprocessor ePLC to enhance the performance, the multi-language supported graphical component to improve the adaptability of developers, the optimized system structure (reasonable memory allocation, user-oriented thread structure, LPM data interaction, modular software design, finite state machines) to reduce the development complexity. Ultimately, we adopt the proposed method to implement the distributed IMM system. By comparison with TECHMATION and KEBA system, our system startup time has been increased by more than 20 times in the case of almost identical key performance and our system support customized multiprocessor ePLC and detached HMI.
+This paper presents a user-oriented development method. We pose the customized mulitprocessor $ePLC$ to enhance the performance, the multi-language supported graphical component to improve the adaptability of developers, the optimized system structure (reasonable memory allocation, user-oriented thread structure, $LPM$ data interaction, modular software design, finite state machines) to reduce the development complexity. Ultimately, we adopt the proposed method to implement the distributed $IMM$ system. By comparison with TECHMATION and KEBA system, our system startup time has been increased by more than 20 times in the case of almost identical key performance and our system support customized multiprocessor $ePLC$ and detached $HMI$.
 
 
 

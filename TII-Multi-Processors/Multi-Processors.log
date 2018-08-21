@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.8.4)  19 AUG 2018 21:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.7.13)  21 AUG 2018 21:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -405,13 +405,20 @@ LaTeX Warning: No \author given.
 LaTeX Warning: No \author given.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 502.
+(Font)              <9> on input line 458.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 502.
+(Font)              <6> on input line 458.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 458.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 498.
 [1{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 518.
+
 Overfull \hbox (1.76807pt too wide) in paragraph at lines 525--525
 []|\OT1/ptm/m/n/7 No.| 
  []
@@ -436,7 +443,7 @@ Overfull \hbox (3.04103pt too wide) in paragraph at lines 523--546
  [] 
  []
 
-<fig/FIG2.pdf, id=11, 855.94781pt x 500.62032pt>
+<fig/FIG2.pdf, id=13, 855.94781pt x 500.62032pt>
 File: fig/FIG2.pdf Graphic file (type pdf)
 <use fig/FIG2.pdf>
 Package pdftex.def Info: fig/FIG2.pdf  used on input line 575.
@@ -446,21 +453,18 @@ Overfull \hbox (0.94499pt too wide) in paragraph at lines 575--576
  [][] 
  []
 
-
-Underfull \vbox (badness 1226) has occurred while \output is active []
-
-<fig/FIG6.pdf, id=12, 472.39487pt x 446.79924pt>
+<fig/FIG6.pdf, id=14, 472.39487pt x 446.79924pt>
 File: fig/FIG6.pdf Graphic file (type pdf)
 <use fig/FIG6.pdf>
 Package pdftex.def Info: fig/FIG6.pdf  used on input line 583.
 (pdftex.def)             Requested size: 216.81pt x 205.05972pt.
- [2 <./fig/FIG2.pdf>]
-<fig/FIG3.pdf, id=21, 671.89018pt x 313.9228pt>
+[2 <./fig/FIG2.pdf>]
+<fig/FIG3.pdf, id=24, 671.89018pt x 313.9228pt>
 File: fig/FIG3.pdf Graphic file (type pdf)
 <use fig/FIG3.pdf>
 Package pdftex.def Info: fig/FIG3.pdf  used on input line 610.
 (pdftex.def)             Requested size: 216.81pt x 101.3004pt.
-<fig/FIG4.pdf, id=22, 288.3272pt x 241.65282pt>
+<fig/FIG4.pdf, id=25, 288.3272pt x 241.65282pt>
 File: fig/FIG4.pdf Graphic file (type pdf)
 <use fig/FIG4.pdf>
 Package pdftex.def Info: fig/FIG4.pdf  used on input line 618.
@@ -474,154 +478,136 @@ s with page group included in a single page
 pdfTeX warning: pdflatex.exe (file ./fig/FIG4.pdf): PDF inclusion: multiple pdf
 s with page group included in a single page
 >]
-Underfull \hbox (badness 5260) in paragraph at lines 680--681
-[][]\OT1/ptm/m/n/10 The pro-gram-ming struc-ture ($\OML/cmm/m/it/10 PS$\OT1/ptm
-/m/n/10 ) con-sists of mod-
+Underfull \hbox (badness 5260) in paragraph at lines 675--676
+[]\OT1/ptm/m/n/10 The pro-gram-ming struc-ture ($\OML/cmm/m/it/10 PS$\OT1/ptm/m
+/n/10 ) con-sists of mod-
  []
 
 
-Underfull \hbox (badness 2653) in paragraph at lines 680--681
+Underfull \hbox (badness 2653) in paragraph at lines 675--676
 \OT1/ptm/m/n/10 ules ($\OML/cmm/m/it/10 MS$\OT1/ptm/m/n/10 ), mem-ory al-lo-ca-
 tion ($\OML/cmm/m/it/10 MA$\OT1/ptm/m/n/10 ), $\OML/cmm/m/it/10 LPM$ \OT1/ptm/m
 /n/10 data in-
  []
 
 
-Underfull \hbox (badness 2173) in paragraph at lines 680--681
+Underfull \hbox (badness 2173) in paragraph at lines 675--676
 \OT1/ptm/m/n/10 ter-ac-tion and threads ($\OML/cmm/m/it/10 TD$\OT1/ptm/m/n/10 )
 . Each $\OML/cmm/m/it/10 ms[]$ \OT1/ptm/m/n/10 has two parts:
  []
 
-<fig/FIG5.pdf, id=49, 846.91406pt x 237.51736pt>
+<fig/FIG5.pdf, id=51, 846.91406pt x 237.51736pt>
 File: fig/FIG5.pdf Graphic file (type pdf)
 <use fig/FIG5.pdf>
-Package pdftex.def Info: fig/FIG5.pdf  used on input line 684.
+Package pdftex.def Info: fig/FIG5.pdf  used on input line 679.
 (pdftex.def)             Requested size: 216.81pt x 60.80351pt.
-<fig/Compile.pdf, id=50, 349.68643pt x 557.83406pt>
+<fig/Compile.pdf, id=52, 349.68643pt x 557.83406pt>
 File: fig/Compile.pdf Graphic file (type pdf)
 <use fig/Compile.pdf>
-Package pdftex.def Info: fig/Compile.pdf  used on input line 703.
+Package pdftex.def Info: fig/Compile.pdf  used on input line 698.
 (pdftex.def)             Requested size: 216.81pt x 345.87056pt.
 [4 <./fig/FIG5.pdf>]
-Underfull \hbox (badness 2469) in paragraph at lines 774--775
-[][]\OT1/ptm/m/n/10 The pro-cess of $\OMS/cmsy/m/n/10 P[]$ \OT1/ptm/m/n/10 is s
-een be-low: $\OMS/cmsy/m/n/10 S[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 msb[]\OT1/cm
-r/m/n/10 ) \OMS/cmsy/m/n/10 !
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 789--791
+Underfull \hbox (badness 10000) in paragraph at lines 784--786
 []\OT1/ptm/m/n/10 One mod-ule re-ceives a sys-tem de-fined mes-sage
  []
 
 
-Underfull \hbox (badness 2435) in paragraph at lines 789--791
+Underfull \hbox (badness 2435) in paragraph at lines 784--786
 \OT1/ptm/m/n/10 shown be-low: $\OMS/cmsy/m/n/10 J[]\OT1/cmr/m/n/10 (\OML/cmm/m/
 it/10 smf[]\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ! \OML/cmm/m/it/10 GetMessage[]\O
 T1/cmr/m/n/10 (\OML/cmm/m/it/10 dmf[]\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 !
  []
 
-<fig/Interaction.pdf, id=61, 615.80063pt x 383.56299pt>
+[5 <./fig/compile.pdf>]
+<fig/Interaction.pdf, id=84, 615.80063pt x 383.56299pt>
 File: fig/Interaction.pdf Graphic file (type pdf)
 <use fig/Interaction.pdf>
-Package pdftex.def Info: fig/Interaction.pdf  used on input line 796.
+Package pdftex.def Info: fig/Interaction.pdf  used on input line 791.
 (pdftex.def)             Requested size: 216.81pt x 135.03917pt.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 797.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 797.
-[5 <./fig/compile.pdf>]
-<fig/threadFlow.pdf, id=83, 890.20581pt x 709.5308pt>
+<fig/threadFlow.pdf, id=85, 890.20581pt x 709.5308pt>
 File: fig/threadFlow.pdf Graphic file (type pdf)
 <use fig/threadFlow.pdf>
-Package pdftex.def Info: fig/threadFlow.pdf  used on input line 834.
+Package pdftex.def Info: fig/threadFlow.pdf  used on input line 829.
 (pdftex.def)             Requested size: 216.81pt x 172.80263pt.
+
+Overfull \hbox (13.84865pt too wide) detected at line 864
+[]
+ []
+
+
+Underfull \vbox (badness 1616) has occurred while \output is active []
+
  [6 <./fig/Interaction.pdf> <./fig/threadFlow.pdf
 
 pdfTeX warning: pdflatex.exe (file ./fig/threadFlow.pdf): PDF inclusion: multip
 le pdfs with page group included in a single page
 >]
-<fig/state.pdf, id=163, 639.51924pt x 603.0028pt>
+<fig/state.pdf, id=165, 639.51924pt x 603.0028pt>
 File: fig/state.pdf Graphic file (type pdf)
 <use fig/state.pdf>
-Package pdftex.def Info: fig/state.pdf  used on input line 912.
+Package pdftex.def Info: fig/state.pdf  used on input line 925.
 (pdftex.def)             Requested size: 216.81pt x 204.42937pt.
-<fig/FIG10.pdf, id=164, 207.02344pt x 236.76456pt>
+<fig/FIG10.pdf, id=166, 207.02344pt x 236.76456pt>
 File: fig/FIG10.pdf Graphic file (type pdf)
 <use fig/FIG10.pdf>
-Package pdftex.def Info: fig/FIG10.pdf  used on input line 921.
+Package pdftex.def Info: fig/FIG10.pdf  used on input line 934.
 (pdftex.def)             Requested size: 216.81pt x 247.96342pt.
-<fig/ld.pdf, id=165, 953.44206pt x 922.94812pt>
-File: fig/ld.pdf Graphic file (type pdf)
-<use fig/ld.pdf>
-Package pdftex.def Info: fig/ld.pdf  used on input line 936.
-(pdftex.def)             Requested size: 252.94499pt x 244.84766pt.
-
-Overfull \hbox (0.94499pt too wide) in paragraph at lines 936--937
- [][] 
- []
-
-[7 <./fig/state.pdf> <./fig/FIG10.pdf
+ [7 <./fig/state.pdf> <./fig/FIG10.pdf
 
 pdfTeX warning: pdflatex.exe (file ./fig/FIG10.pdf): PDF inclusion: multiple pd
 fs with page group included in a single page
 >]
-Underfull \vbox (badness 2717) has occurred while \output is active []
+<fig/ld.pdf, id=190, 953.44206pt x 922.94812pt>
+File: fig/ld.pdf Graphic file (type pdf)
+<use fig/ld.pdf>
+Package pdftex.def Info: fig/ld.pdf  used on input line 949.
+(pdftex.def)             Requested size: 252.94499pt x 244.84766pt.
+
+Overfull \hbox (0.94499pt too wide) in paragraph at lines 949--950
+ [][] 
+ []
 
 
-Overfull \hbox (14.73438pt too wide) in paragraph at lines 962--973
+Overfull \hbox (14.73438pt too wide) in paragraph at lines 975--986
  [] 
  []
 
-<fig/Compare.pdf, id=190, 289.08pt x 231.86626pt>
+<fig/Compare.pdf, id=191, 289.08pt x 231.86626pt>
 File: fig/Compare.pdf Graphic file (type pdf)
 <use fig/Compare.pdf>
-Package pdftex.def Info: fig/Compare.pdf  used on input line 978.
+Package pdftex.def Info: fig/Compare.pdf  used on input line 991.
 (pdftex.def)             Requested size: 216.81pt x 173.89925pt.
-(./Multi-Processors.bbl [8 <./fig/ld.pdf> <./fig/Compare.pdf
+[8 <./fig/ld.pdf>] (./Multi-Processors.bbl [9 <./fig/Compare.pdf>]) [10
 
-pdfTeX warning: pdflatex.exe (file ./fig/Compare.pdf): PDF inclusion: multiple 
-pdfs with page group included in a single page
->]
-! Misplaced alignment tab character &.
-<argument> ...Transactions on Automation Science &
-                                                   Engineering
-l.212   Science & Engineering}
-                              , vol.~10, no.~4, pp. 990--1003, 2013.
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-) [9] (./Multi-Processors.aux) ) 
+]
+(./Multi-Processors.aux) ) 
 Here is how much of TeX's memory you used:
- 4943 strings out of 492642
- 78769 string characters out of 6133163
- 172284 words of memory out of 5000000
- 8757 multiletter control sequences out of 15000+600000
- 39893 words of font info for 73 fonts, out of 8000000 for 9000
+ 4952 strings out of 492646
+ 78855 string characters out of 6133325
+ 173270 words of memory out of 5000000
+ 8762 multiletter control sequences out of 15000+600000
+ 40805 words of font info for 76 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 41i,13n,38p,1686b,385s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2018/texmf-dist/fonts/enc/dvips/bas
-e/8r.enc}<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
-<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texli
-ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2018/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2018/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2018/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
-c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive
-/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2018/texm
-f-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1
-/urw/times/utmbi8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a
-.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Multi-Processors.pdf (9 pages, 2492578 bytes).
+ 41i,13n,38p,1699b,385s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.e
+nc}<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/te
+xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/201
+8/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2018/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2018/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.p
+fb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texl
+ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2018/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2018/texmf-dist/fonts/typ
+e1/urw/times/utmb8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/times/utmbi
+8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive
+/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Multi-Processors.pdf (10 pages, 2507497 bytes).
 PDF statistics:
- 263 PDF objects out of 1000 (max. 8388607)
- 142 compressed objects within 2 object streams
+ 271 PDF objects out of 1000 (max. 8388607)
+ 148 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
