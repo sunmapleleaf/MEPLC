@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.7.13)  21 AUG 2018 21:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.8.4)  21 AUG 2018 21:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -557,7 +557,7 @@ Package pdftex.def Info: fig/FIG10.pdf  used on input line 934.
 pdfTeX warning: pdflatex.exe (file ./fig/FIG10.pdf): PDF inclusion: multiple pd
 fs with page group included in a single page
 >]
-<fig/ld.pdf, id=190, 953.44206pt x 922.94812pt>
+<fig/ld.pdf, id=188, 953.44206pt x 922.94812pt>
 File: fig/ld.pdf Graphic file (type pdf)
 <use fig/ld.pdf>
 Package pdftex.def Info: fig/ld.pdf  used on input line 949.
@@ -572,7 +572,7 @@ Overfull \hbox (14.73438pt too wide) in paragraph at lines 975--986
  [] 
  []
 
-<fig/Compare.pdf, id=191, 289.08pt x 231.86626pt>
+<fig/Compare.pdf, id=189, 289.08pt x 231.86626pt>
 File: fig/Compare.pdf Graphic file (type pdf)
 <use fig/Compare.pdf>
 Package pdftex.def Info: fig/Compare.pdf  used on input line 991.
@@ -582,10 +582,10 @@ Package pdftex.def Info: fig/Compare.pdf  used on input line 991.
 ]
 (./Multi-Processors.aux) ) 
 Here is how much of TeX's memory you used:
- 4952 strings out of 492646
- 78855 string characters out of 6133325
- 173270 words of memory out of 5000000
- 8762 multiletter control sequences out of 15000+600000
+ 4952 strings out of 492642
+ 78855 string characters out of 6133163
+ 173300 words of memory out of 5000000
+ 8763 multiletter control sequences out of 15000+600000
  40805 words of font info for 76 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  41i,13n,38p,1699b,385s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -604,10 +604,10 @@ texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2018/texmf-dist
 e1/urw/times/utmb8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/times/utmbi
 8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive
 /2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Multi-Processors.pdf (10 pages, 2507497 bytes).
+Output written on Multi-Processors.pdf (10 pages, 2507752 bytes).
 PDF statistics:
- 271 PDF objects out of 1000 (max. 8388607)
- 148 compressed objects within 2 object streams
+ 269 PDF objects out of 1000 (max. 8388607)
+ 146 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
