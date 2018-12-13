@@ -1,0 +1,143 @@
+\relax 
+\citation{Gonzalez2017Supervisory,Chekired2018Industrial}
+\citation{Li2018Energy,Ling20185G}
+\citation{Jiang2013System,Jiang2013Bayesian,Adiego2015Applying}
+\citation{Gerk2006Advanced,Chang2007Adaptive,Dominic2016PLC}
+\citation{WuA}
+\citation{Sch2013Development,Morenas2017Shop}
+\citation{Zaeh2005A,Hossain2014Advanced}
+\citation{Hossain2014Advanced}
+\citation{Hossain2014Advanced}
+\citation{Arshad2017Green}
+\citation{Ioannides2004Design,Shi2016The,Fang2017Design}
+\citation{Peng2011Linear}
+\citation{Ioannides2004Design,syaichu2011model}
+\citation{Peng2011Linear,Qian2014A}
+\citation{Panasonic2011Programmable}
+\citation{Dubois2002Memory,Patel2006Processor}
+\citation{Zhu2016Providing}
+\citation{Albarakat2017MTB}
+\citation{Hajduk2015Architecture,Chmiel2016An}
+\providecommand \oddpage@label [2]{}
+\@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {I-A}}Motivations}{1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {I-B}}Related Works}{1}}
+\citation{Peng2011Linear,Qian2014A}
+\citation{OMRON2006CS1W}
+\citation{IEC1993Programmable}
+\citation{PLCopen2005Function}
+\citation{S2006Advanced}
+\citation{3S2017Logic}
+\citation{Bonfe2001Object,Werner2009Object,Basile2013On}
+\citation{Bonf2013Design,Vyatkin2013Software}
+\citation{Verscheure2016User,Choi2017A}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {I-C}}Our Contributions}{2}}
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces Modules, DI/DO, AI/AO of $IMM$}}{2}}
+\newlabel{table:IMMSystem}{{I}{2}}
+\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces System Comparison of PC-Based $PLC$ in $IMM$}}{2}}
+\newlabel{table:IMMControllor}{{II}{2}}
+\@writefile{toc}{\contentsline {section}{\numberline {II}System Architecture}{2}}
+\newlabel{MultiProcessorePLC}{{II}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-A}}Hardware Structure of $ePLC$}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-B}}Multi-language supported graphical component}{2}}
+\newlabel{component}{{\unhbox \voidb@x \hbox {II-B}}{2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces  One type of hardware structure of multiprocessor $ePLC$ containing a master processor and two slave processors.}}{3}}
+\newlabel{fig:HardwareStructure}{{1}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces  Two typical designs: single component and component with input and output.}}{3}}
+\newlabel{fig:Component}{{2}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces  From the user's point of view, after inducing the multi-language component, the algorithm and logic program can be developed on a uniform $PLC$ platform.}}{3}}
+\newlabel{fig:SoftwareStructure}{{3}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces  Memory allocation in master and slave processors.}}{3}}
+\newlabel{fig:Memory}{{4}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-C}}Memory Allocation}{3}}
+\citation{WuA}
+\citation{WuA}
+\citation{Vyatkin2013Software}
+\citation{Yan2010Compiling}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-D}}User-oriented Thread Design}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-E}}Modular Design}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces  User-oriented thread design in master and slave processors.}}{4}}
+\newlabel{fig:Threads}{{5}{4}}
+\@writefile{toc}{\contentsline {section}{\numberline {III}System Implementation}{4}}
+\newlabel{Process}{{III}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-A}}Compilation of graphic program}{4}}
+\citation{WuA}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Three steps in compilation of graphic program, which contains multi-language component: 1) convert topology structure to directed graph, 2) generate a binary decomposition tree, and 3) generate IL instructions.}}{5}}
+\newlabel{fig:Compile}{{6}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-B}}LPM data interaction}{5}}
+\newlabel{alg1}{{1}{5}}
+\@writefile{loa}{\contentsline {algocf}{\numberline {1}{\ignorespaces $\mathcal  {A}_m$}}{5}}
+\newlabel{alg2}{{2}{5}}
+\@writefile{loa}{\contentsline {algocf}{\numberline {2}{\ignorespaces $\mathcal  {A}_d$}}{5}}
+\citation{Hierons2016Parallel}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces  $LPM$ data interaction defined as having three parts: $\mathcal  {L}$ (layer data interaction), $\mathcal  {P}$ (processor data interaction), and $\mathcal  {M}$ (module data interaction).}}{6}}
+\newlabel{fig:Interaction}{{7}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-C}}Execution of threads}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces  Execution of control thread and two algorithm threads among three processors with and without messages.}}{6}}
+\newlabel{fig:threadFlow}{{8}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-D}}Finite state machines}{6}}
+\newlabel{FMaster}{{7}{6}}
+\newlabel{FSlave}{{9}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces  Finite state machines of $ePlC$, which contains master processor $M$, slave processor $S_1$, and slave processor $S_i$.}}{7}}
+\newlabel{fig:state}{{9}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces 200-T IMM and its control distributed system.}}{7}}
+\newlabel{fig:IMM}{{10}{7}}
+\@writefile{toc}{\contentsline {section}{\numberline {IV}Experiment}{7}}
+\newlabel{Experiment}{{IV}{7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-A}}Distributed control system}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces (a) uniform development platform with C-language component in dotted-line box and (b) its partial code. This component represents to output a small velocity and pressure in setup mode.}}{8}}
+\newlabel{fig:ld}{{11}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-B}}Software structure}{8}}
+\@writefile{lot}{\contentsline {table}{\numberline {III}{\ignorespaces System performance comparison}}{8}}
+\newlabel{table:ComparisonG}{{III}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-C}}Analysis}{8}}
+\@writefile{toc}{\contentsline {section}{\numberline {V}Conclusions}{8}}
+\newlabel{conclusion}{{V}{8}}
+\bibstyle{IEEEtran}
+\bibdata{reference}
+\bibcite{Gonzalez2017Supervisory}{1}
+\bibcite{Chekired2018Industrial}{2}
+\bibcite{Li2018Energy}{3}
+\bibcite{Ling20185G}{4}
+\bibcite{Jiang2013System}{5}
+\bibcite{Jiang2013Bayesian}{6}
+\bibcite{Adiego2015Applying}{7}
+\bibcite{Gerk2006Advanced}{8}
+\bibcite{Chang2007Adaptive}{9}
+\bibcite{Dominic2016PLC}{10}
+\bibcite{WuA}{11}
+\bibcite{Sch2013Development}{12}
+\bibcite{Morenas2017Shop}{13}
+\bibcite{Zaeh2005A}{14}
+\bibcite{Hossain2014Advanced}{15}
+\bibcite{Arshad2017Green}{16}
+\bibcite{Ioannides2004Design}{17}
+\bibcite{Shi2016The}{18}
+\bibcite{Fang2017Design}{19}
+\bibcite{Peng2011Linear}{20}
+\bibcite{syaichu2011model}{21}
+\bibcite{Qian2014A}{22}
+\bibcite{Panasonic2011Programmable}{23}
+\bibcite{Dubois2002Memory}{24}
+\bibcite{Patel2006Processor}{25}
+\bibcite{Zhu2016Providing}{26}
+\bibcite{Albarakat2017MTB}{27}
+\bibcite{Hajduk2015Architecture}{28}
+\bibcite{Chmiel2016An}{29}
+\bibcite{OMRON2006CS1W}{30}
+\bibcite{IEC1993Programmable}{31}
+\bibcite{PLCopen2005Function}{32}
+\bibcite{S2006Advanced}{33}
+\bibcite{3S2017Logic}{34}
+\bibcite{Bonfe2001Object}{35}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces (a) is EoCP, (b) is EoCP, (c) is EoCM, (d) is EoMOEP.}}{9}}
+\newlabel{fig:Compare}{{12}{9}}
+\@writefile{toc}{\contentsline {section}{References}{9}}
+\bibcite{Werner2009Object}{36}
+\bibcite{Basile2013On}{37}
+\bibcite{Bonf2013Design}{38}
+\bibcite{Vyatkin2013Software}{39}
+\bibcite{Verscheure2016User}{40}
+\bibcite{Choi2017A}{41}
+\bibcite{Yan2010Compiling}{42}
+\bibcite{Hierons2016Parallel}{43}

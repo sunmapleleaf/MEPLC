@@ -1,0 +1,67 @@
+This is BibTeX, Version 0.99d (TeX Live 2018/W32TeX)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Multi-Processors.aux
+The style file: IEEEtran.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: reference.bib
+Warning--I didn't find a database entry for "cheng2018industrial"
+Warning--I didn't find a database entry for "da2014internet"
+Warning--I didn't find a database entry for "Liu2016Traversing"
+Warning--I didn't find a database entry for "Li20185G"
+Warning--I didn't find a database entry for "wu2018customized"
+Warning--I didn't find a database entry for "alves2014openplc"
+Warning--I didn't find a database entry for "gaur2015operating"
+Warning--I didn't find a database entry for "kapernick2014plc"
+Warning--I didn't find a database entry for "ruting2016model"
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty journal in 3S2017Logic
+
+Done.
+You've used 37 entries,
+            4087 wiz_defined-function locations,
+            1068 strings with 14751 characters,
+and the built_in function-call counts, 30483 in all, are:
+= -- 2526
+> -- 714
+< -- 304
++ -- 414
+- -- 117
+* -- 1472
+:= -- 4555
+add.period$ -- 73
+call.type$ -- 37
+change.case$ -- 34
+chr.to.int$ -- 657
+cite$ -- 38
+duplicate$ -- 2153
+empty$ -- 2249
+format.name$ -- 144
+if$ -- 7159
+int.to.chr$ -- 0
+int.to.str$ -- 37
+missing$ -- 364
+newline$ -- 134
+num.names$ -- 37
+pop$ -- 733
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 2384
+stack$ -- 0
+substring$ -- 1560
+swap$ -- 1884
+text.length$ -- 85
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 37
+warning$ -- 1
+while$ -- 135
+width$ -- 39
+write$ -- 399
+(There were 10 warnings)

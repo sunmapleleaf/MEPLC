@@ -21,28 +21,31 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{Gonzalez2017Supervisory}
-A.~G.~C. Gonzalez, M.~V.~S. Alves, G.~S. Viana, L.~K. Carvalho, and J.~C.
-  Basilio, ``Supervisory control-based navigation architecture: A new framework
-  for autonomous robots in industry 4.0 environments,'' \emph{IEEE Transactions
-  on Industrial Informatics}, vol.~PP, no.~99, pp. 1--1, 2017.
-
 \bibitem{Chekired2018Industrial}
 D.~A. Chekired, L.~Khoukhi, and H.~T. Mouftah, ``Industrial iot data scheduling
   based on hierarchical fog computing: A key for enabling smart factory,''
   \emph{IEEE Transactions on Industrial Informatics}, vol.~PP, no.~99, pp.
   1--1, 2018.
 
-\bibitem{Li2018Energy}
-S.~Li, Q.~Ni, Y.~Sun, G.~Min, and S.~Al-Rubaye, ``Energy-efficient resource
-  allocation for industrial cyber-physical iot systems in 5g era,'' \emph{IEEE
-  Transactions on Industrial Informatics}, vol.~PP, no.~99, pp. 1--1, 2018.
+\bibitem{cheng2018industrial}
+J.~Cheng, W.~Chen, F.~Tao, and C.-L. Lin, ``Industrial iot in 5g environment
+  towards smart manufacturing,'' \emph{Journal of Industrial Information
+  Integration}, vol.~10, pp. 10--19, 2018.
 
-\bibitem{Ling20185G}
-L.~Ling, C.~Chen, S.~Zhu, and X.~Guan, ``5g enabled co-design of
-  energy-efficient transmission and estimation for industrial iot systems,''
-  \emph{IEEE Transactions on Industrial Informatics}, vol.~PP, no.~99, pp.
-  1--1, 2018.
+\bibitem{da2014internet}
+L.~Da~Xu, W.~He, and S.~Li, ``Internet of things in industries: A survey,''
+  \emph{IEEE Transactions on industrial informatics}, vol.~10, no.~4, pp.
+  2233--2243, 2014.
+
+\bibitem{Liu2016Traversing}
+F.~Liu, C.~W. Tan, E.~T.~K. Lim, and B.~Choi, ``Traversing knowledge networks:
+  an algorithmic historiography of extant literature on the internet of things
+  (iot),'' \emph{Journal of Management Analytics}, vol.~4, no.~1, pp. 3--34,
+  2016.
+
+\bibitem{Li20185G}
+S.~Li, L.~D. Xu, and S.~Zhao, ``5g internet of things: A survey,''
+  \emph{Journal of Industrial Information Integration}, 2018.
 
 \bibitem{Jiang2013System}
 Y.~Jiang, H.~Zhang, H.~Liu, X.~Song, W.~N. Hung, M.~Gu, and J.~Sun, ``System
@@ -79,10 +82,10 @@ S.~Dominic, Y.~Lohr, A.~Schwung, and S.~X. Ding, ``Plc-based real-time
   systems,'' \emph{IEEE Transactions on Industrial Electronics}, vol.~PP,
   no.~99, pp. 1--1, 2016.
 
-\bibitem{WuA}
+\bibitem{wu2018customized}
 H.~Wu, Y.~Yan, D.~Sun, and S.~Rene, ``A customized real-time compilation for
   motion control in embedded plcs,'' \emph{IEEE Transactions on Industrial
-  Informatics}, vol.~PP, no.~99, pp. 1--1.
+  Informatics}, 2018.
 
 \bibitem{Sch2013Development}
 D.~Schütz, A.~Wannagat, C.~Legat, and B.~Vogel-Heuser, ``Development of
@@ -105,15 +108,26 @@ S.~Hossain, M.~A. Hussain, and R.~B. Omar, ``Advanced control software
   framework for process control applications,'' \emph{International Journal of
   Computational Intelligence Systems}, vol.~7, no.~1, pp. 37--49, 2014.
 
-\bibitem{Arshad2017Green}
-R.~Arshad, S.~Zahoor, M.~A. Shah, A.~Wahid, and H.~Yu, ``Green iot: An
-  investigation on energy saving practices for 2020 and beyond,'' \emph{IEEE
-  Access}, vol.~5, no.~99, pp. 15\,667--15\,681, 2017.
+\bibitem{alves2014openplc}
+T.~R. Alves, M.~Buratto, F.~M. de~Souza, and T.~V. Rodrigues, ``Openplc: An
+  open source alternative to automation,'' in \emph{IEEE Global Humanitarian
+  Technology Conference (GHTC 2014)}.\hskip 1em plus 0.5em minus 0.4em\relax
+  IEEE, 2014, pp. 585--589.
 
-\bibitem{Ioannides2004Design}
-M.~G. Ioannides, ``Design and implementation of plc-based monitoring control
-  system for induction motor,'' \emph{IEEE Transactions on Energy Conversion},
-  vol.~19, no.~3, pp. 469--476, 2004.
+\bibitem{gaur2015operating}
+P.~Gaur and M.~P. Tahiliani, ``Operating systems for iot devices: A critical
+  survey,'' in \emph{Region 10 Symposium (TENSYMP), 2015 IEEE}.\hskip 1em plus
+  0.5em minus 0.4em\relax IEEE, 2015, pp. 33--36.
+
+\bibitem{Bonf2013Design}
+M.~Bonfè, C.~Fantuzzi, and C.~Secchi, ``Design patterns for model-based
+  automation software design and implementation,'' \emph{Control Engineering
+  Practice}, vol.~21, no.~11, pp. 1608--1619, 2013.
+
+\bibitem{Vyatkin2013Software}
+V.~Vyatkin, ``Software engineering in industrial automation: State-of-the-art
+  review,'' \emph{IEEE Transactions on Industrial Informatics}, vol.~9, no.~3,
+  pp. 1234--1249, 2013.
 
 \bibitem{Shi2016The}
 X.~M. Shi, W.~J. Fei, and S.~P. Deng, ``The research of circular interpolation
@@ -136,6 +150,18 @@ A.~Syaichu-Rohman and R.~Sirius, ``Model predictive control implementation on a
   programmable logic controller for dc motor speed control,'' in
   \emph{Electrical Engineering and Informatics (ICEEI), 2011 International
   Conference on}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2011, pp. 1--4.
+
+\bibitem{kapernick2014plc}
+B.~K{\"a}pernick and K.~Graichen, ``Plc implementation of a nonlinear model
+  predictive controller,'' \emph{IFAC Proceedings Volumes}, vol.~47, no.~3, pp.
+  1892--1897, 2014.
+
+\bibitem{ruting2016model}
+A.~R{\"u}ting, L.~M. Blumenthal, and A.~Tr{\"a}chtler, ``Model predictive
+  feedforward compensation for control of multi axes hybrid kinematics on
+  plc,'' in \emph{Industrial Electronics Society, IECON 2016-42nd Annual
+  Conference of the IEEE}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2016,
+  pp. 583--588.
 
 \bibitem{Qian2014A}
 J.~Qian, H.~B. Zhu, S.~W. Wang, and Y.~S. Zeng, ``A 5-dof combined robot
@@ -211,16 +237,6 @@ F.~Basile, P.~Chiacchio, and D.~Gerbasio, ``On the implementation of industrial
   automation systems based on plc,'' \emph{IEEE Transactions on Automation
   Science \& Engineering}, vol.~10, no.~4, pp. 990--1003, 2013.
 
-\bibitem{Bonf2013Design}
-M.~Bonfè, C.~Fantuzzi, and C.~Secchi, ``Design patterns for model-based
-  automation software design and implementation,'' \emph{Control Engineering
-  Practice}, vol.~21, no.~11, pp. 1608--1619, 2013.
-
-\bibitem{Vyatkin2013Software}
-V.~Vyatkin, ``Software engineering in industrial automation: State-of-the-art
-  review,'' \emph{IEEE Transactions on Industrial Informatics}, vol.~9, no.~3,
-  pp. 1234--1249, 2013.
-
 \bibitem{Verscheure2016User}
 O.~Verscheure, X.~Garcia, G.~Karlsson, and J.~P. Hubaux, ``User-oriented qos in
   packet video delivery,'' \emph{IEEE Network}, vol.~12, no.~6, pp. 12--21,
@@ -230,6 +246,12 @@ O.~Verscheure, X.~Garcia, G.~Karlsson, and J.~P. Hubaux, ``User-oriented qos in
 N.~Choi, D.~Kim, S.~J. Lee, and Y.~Yi, ``A fog operating system for
   user-oriented iot services: Challenges and research directions,'' \emph{IEEE
   Communications Magazine}, vol.~55, no.~8, pp. 44--51, 2017.
+
+\bibitem{prahofer2017static}
+H.~Pr{\"a}hofer, F.~Angerer, R.~Ramler, and F.~Grillenberger, ``Static code
+  analysis of iec 61131-3 programs: Comprehensive tool support and experiences
+  from large-scale industrial application,'' \emph{IEEE Transactions on
+  Industrial Informatics}, vol.~13, no.~1, pp. 37--47, 2017.
 
 \bibitem{Yan2010Compiling}
 Y.~Yan and H.~Zhang, ``Compiling ladder diagram into instruction list to comply
